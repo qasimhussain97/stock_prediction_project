@@ -1,0 +1,7 @@
+{
+    "stock": "NVDA",
+    "model_name": "CNN-LSTM",
+    "rmse": 15.1134,
+    "mae": 13.6888,
+    "date": "2025-03-28 20:59:25"
+}

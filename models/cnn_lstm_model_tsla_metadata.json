@@ -1,0 +1,7 @@
+{
+    "stock": "TSLA",
+    "model_name": "CNN-LSTM",
+    "rmse": 22.2921,
+    "mae": 15.6918,
+    "date": "2025-03-28 20:58:19"
+}

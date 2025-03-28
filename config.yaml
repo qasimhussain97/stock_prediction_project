@@ -1,0 +1,46 @@
+data:
+  window_size: 60
+  train_test_split: 0.8
+  stock_symbols: ["AAPL", "TSLA", "AMZN", "KO", "JPM", "NVDA"]
+
+model:
+  moving_average:
+    window:5
+  arima: 
+    order:[5, 1, 0]
+  lstm:
+    units: 50
+    dropout: 0.2
+    batch_size: 32
+    epochs: 20
+    learning_rate: 0.001
+  cnn_lstm:
+    filters: 64
+    kernel_size: 3
+    pool_size: 2
+    lstm_units: 50
+    dropout: 0.2
+    dense_units: 25
+    batch_size: 32
+    epochs: 20
+  optimizer: "adam"
+  loss_function: "mean_squared_error"
+
+paths:
+  model_dir: "models/"
+  logs: "logs/"
+  plots_dir: "plots/"  
+  templates:
+    moving_average: 
+      metadata_name: "moving_average_{symbol}_metadata.json"
+    arima:
+      model_name: "arima_model_{symbol}.pkl"
+    lstm: 
+      model_name: "lstm_model_{symbol}.h5"
+      metadata_name: "lstm_model_{symbol}_metadata.json"
+    cnn_lstm:
+      model_name: "cnn_lstm_model_{symbol}.h5"
+      metadata_name: "cnn_lstm_model_{symbol}_metadata.json"
+    plots:
+      prediction_plot: "{symbol}_prediction_comparison.png"
+      residual_plot: "{symbol}_residuals.png"

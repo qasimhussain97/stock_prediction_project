@@ -1,0 +1,1566 @@
+2025-03-26 17:31:28,959 - INFO - Downloading and preprocessing data...
+2025-03-26 17:31:29,585 - ERROR - 
+1 Failed download:
+2025-03-26 17:31:29,585 - ERROR - ['AAPL']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 17:31:29,946 - ERROR - 
+1 Failed download:
+2025-03-26 17:31:29,946 - ERROR - ['TSLA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 17:31:30,293 - ERROR - 
+1 Failed download:
+2025-03-26 17:31:30,293 - ERROR - ['AMZN']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 19:58:17,888 - INFO - Downloading and preprocessing data...
+2025-03-26 19:58:18,524 - ERROR - 
+1 Failed download:
+2025-03-26 19:58:18,524 - ERROR - ['AAPL']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 19:58:18,857 - ERROR - 
+1 Failed download:
+2025-03-26 19:58:18,857 - ERROR - ['TSLA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 19:58:19,217 - ERROR - 
+1 Failed download:
+2025-03-26 19:58:19,217 - ERROR - ['AMZN']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 19:58:19,224 - INFO - {'AAPL': Empty DataFrame
+Columns: [Open, High, Low, Close, Adj Close, Volume, Z-Score]
+Index: [], 'TSLA': Empty DataFrame
+Columns: [Open, High, Low, Close, Adj Close, Volume, Z-Score]
+Index: [], 'AMZN': Empty DataFrame
+Columns: [Open, High, Low, Close, Adj Close, Volume, Z-Score]
+Index: []}
+2025-03-26 20:01:01,521 - INFO - Downloading and preprocessing data...
+2025-03-26 20:01:02,110 - ERROR - 
+1 Failed download:
+2025-03-26 20:01:02,110 - ERROR - ['AAPL']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 20:01:02,432 - ERROR - 
+1 Failed download:
+2025-03-26 20:01:02,432 - ERROR - ['TSLA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 20:01:02,766 - ERROR - 
+1 Failed download:
+2025-03-26 20:01:02,766 - ERROR - ['AMZN']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 20:01:02,774 - INFO - Empty DataFrame
+Columns: [Open, High, Low, Close, Volume]
+Index: []
+2025-03-26 20:05:17,332 - INFO - Downloading and preprocessing data...
+2025-03-26 20:05:17,926 - ERROR - 
+1 Failed download:
+2025-03-26 20:05:17,927 - ERROR - ['AAPL']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 20:05:18,634 - ERROR - 
+1 Failed download:
+2025-03-26 20:05:18,635 - ERROR - ['TSLA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 20:05:19,112 - ERROR - 
+1 Failed download:
+2025-03-26 20:05:19,112 - ERROR - ['AMZN']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 20:05:19,120 - INFO - Empty DataFrame
+Columns: [Open, High, Low, Close, Volume]
+Index: []
+2025-03-26 22:09:29,299 - INFO - Loaded config:
+2025-03-26 22:09:29,302 - INFO - Downloading and preprocessing data...
+2025-03-26 22:09:30,622 - ERROR - 
+1 Failed download:
+2025-03-26 22:09:30,623 - ERROR - ['AAPL']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 22:09:30,929 - ERROR - 
+1 Failed download:
+2025-03-26 22:09:30,929 - ERROR - ['TSLA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 22:09:31,264 - ERROR - 
+1 Failed download:
+2025-03-26 22:09:31,264 - ERROR - ['AMZN']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-26 22:09:31,327 - INFO - Empty DataFrame
+Columns: [Open, High, Low, Close, Volume]
+Index: []
+2025-03-27 00:03:11,684 - INFO - Loaded config:
+2025-03-27 00:03:11,698 - INFO - Downloading and preprocessing data...
+2025-03-27 00:03:12,529 - ERROR - 
+1 Failed download:
+2025-03-27 00:03:12,529 - ERROR - ['AAPL']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-27 00:03:12,836 - ERROR - 
+1 Failed download:
+2025-03-27 00:03:12,836 - ERROR - ['TSLA']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-27 00:03:13,138 - ERROR - 
+1 Failed download:
+2025-03-27 00:03:13,138 - ERROR - ['AMZN']: JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+2025-03-27 00:03:13,152 - INFO - Empty DataFrame
+Columns: [Open, High, Low, Close, Volume]
+Index: []
+2025-03-27 00:37:53,571 - INFO - Loaded config:
+2025-03-27 00:37:53,574 - INFO - Downloading and preprocessing data...
+2025-03-27 00:37:54,123 - INFO - Price             Open        High         Low       Close    Volume
+Ticker            AMZN        AMZN        AMZN        AMZN      AMZN
+Date                                                                
+2022-01-03  167.550003  170.703506  166.160507  170.404495  63520000
+2022-01-04  170.438004  171.399994  166.349503  167.522003  70726000
+2022-01-05  166.882996  167.126495  164.356995  164.356995  64302000
+2022-01-06  163.450500  164.800003  161.936996  163.253998  51958000
+2022-01-07  163.839005  165.243500  162.031006  162.554001  46606000
+...                ...         ...         ...         ...       ...
+2025-02-24  217.449997  217.720001  212.419998  212.710007  42387600
+2025-02-25  211.630005  213.339996  204.160004  212.800003  58958000
+2025-02-26  214.940002  218.160004  213.089996  214.350006  39120600
+2025-02-27  218.350006  219.970001  208.369995  208.740005  40548600
+2025-02-28  208.649994  212.619995  206.990005  212.279999  51771700
+
+[792 rows x 5 columns]
+2025-03-27 00:44:58,117 - INFO - Loaded config:
+2025-03-27 00:44:58,135 - INFO - Downloading and preprocessing data...
+2025-03-27 00:44:59,318 - INFO - Price             Open        High         Low       Close    Volume
+Ticker            AMZN        AMZN        AMZN        AMZN      AMZN
+Date                                                                
+2022-01-03  167.550003  170.703506  166.160507  170.404495  63520000
+2022-01-04  170.438004  171.399994  166.349503  167.522003  70726000
+2022-01-05  166.882996  167.126495  164.356995  164.356995  64302000
+2022-01-06  163.450500  164.800003  161.936996  163.253998  51958000
+2022-01-07  163.839005  165.243500  162.031006  162.554001  46606000
+...                ...         ...         ...         ...       ...
+2025-02-24  217.449997  217.720001  212.419998  212.710007  42387600
+2025-02-25  211.630005  213.339996  204.160004  212.800003  58958000
+2025-02-26  214.940002  218.160004  213.089996  214.350006  39120600
+2025-02-27  218.350006  219.970001  208.369995  208.740005  40548600
+2025-02-28  208.649994  212.619995  206.990005  212.279999  51771700
+
+[792 rows x 5 columns]
+2025-03-27 00:47:04,816 - INFO - Loaded config:
+2025-03-27 00:47:04,819 - INFO - Downloading and preprocessing data...
+2025-03-27 00:47:05,966 - INFO - Price             Open        High         Low       Close     Volume
+Ticker            AMZN        AMZN        AMZN        AMZN       AMZN
+Date                                                                 
+2019-01-02   73.260002   77.667999   73.046501   76.956497  159662000
+2019-01-03   76.000504   76.900002   74.855499   75.014000  139512000
+2019-01-04   76.500000   79.699997   75.915497   78.769501  183652000
+2019-01-07   80.115501   81.727997   79.459503   81.475502  159864000
+2019-01-08   83.234497   83.830498   80.830498   82.829002  177628000
+...                ...         ...         ...         ...        ...
+2025-03-18  192.520004  194.000000  189.380005  192.820007   40414900
+2025-03-19  193.380005  195.970001  191.960007  195.539993   39442900
+2025-03-20  193.070007  199.320007  192.300003  194.949997   38921100
+2025-03-21  192.899994  196.990005  192.520004  196.210007   60056900
+2025-03-24  200.000000  203.639999  199.949997  203.259995   41625400
+
+[1565 rows x 5 columns]
+2025-03-27 00:52:53,123 - INFO - Loaded config:
+2025-03-27 00:52:53,130 - INFO - Downloading and preprocessing data...
+2025-03-27 00:54:53,559 - INFO - Loaded config:
+2025-03-27 00:54:53,564 - INFO - Downloading and preprocessing data...
+2025-03-27 00:54:54,755 - INFO - Loading existing LSTM model...
+2025-03-27 00:59:29,675 - INFO - Loaded config:
+2025-03-27 00:59:29,677 - INFO - Downloading and preprocessing data...
+2025-03-27 00:59:31,116 - INFO - Loading existing LSTM model...
+2025-03-27 01:07:00,134 - INFO - Loaded config:
+2025-03-27 01:07:00,140 - INFO - Downloading and preprocessing data...
+2025-03-27 01:07:01,658 - INFO - Training new LSTM model...
+2025-03-27 01:07:19,045 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-27 01:07:19,068 - INFO - Model saved to disk.
+2025-03-27 01:07:19,346 - INFO - RMSE (LSTM) AAPL: 6.995055550369051
+2025-03-27 01:07:19,346 - INFO - MAE (LSTM) AAPL: 5.7124717621935215
+2025-03-27 05:51:11,125 - INFO - Loaded config:
+2025-03-27 05:51:11,128 - INFO - Downloading and preprocessing data...
+2025-03-27 06:21:53,445 - INFO - Loaded config:
+2025-03-27 06:21:53,448 - INFO - Downloading and preprocessing data...
+2025-03-27 06:21:54,531 - INFO - Loading existing LSTM model...
+2025-03-27 06:21:54,622 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:21:54,962 - INFO - RMSE (LSTM) AAPL: 6.995061425172587
+2025-03-27 06:21:54,962 - INFO - MAE (LSTM) AAPL: 5.712475923681447
+2025-03-27 06:21:54,965 - INFO - Loading existing LSTM model...
+2025-03-27 06:21:54,987 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:21:55,336 - INFO - RMSE (LSTM) AAPL: 22.708491965666116
+2025-03-27 06:21:55,336 - INFO - MAE (LSTM) AAPL: 16.80050864238513
+2025-03-27 06:21:55,338 - INFO - Loading existing LSTM model...
+2025-03-27 06:21:55,360 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:21:55,490 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x3087b6e80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 06:21:55,631 - INFO - RMSE (LSTM) AAPL: 6.735440246109218
+2025-03-27 06:21:55,632 - INFO - MAE (LSTM) AAPL: 5.303130801958529
+2025-03-27 06:21:55,633 - INFO - Loading existing LSTM model...
+2025-03-27 06:21:55,655 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:21:55,773 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30dd44f40> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 06:21:55,919 - INFO - RMSE (LSTM) AAPL: 1.3506702888868811
+2025-03-27 06:21:55,919 - INFO - MAE (LSTM) AAPL: 1.0299642660872268
+2025-03-27 06:21:55,921 - INFO - Loading existing LSTM model...
+2025-03-27 06:21:55,943 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:21:56,208 - INFO - RMSE (LSTM) AAPL: 10.736467890955685
+2025-03-27 06:21:56,208 - INFO - MAE (LSTM) AAPL: 8.98317496615102
+2025-03-27 06:21:56,210 - INFO - Loading existing LSTM model...
+2025-03-27 06:21:56,231 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:21:56,493 - INFO - RMSE (LSTM) AAPL: 15.58094236001394
+2025-03-27 06:21:56,493 - INFO - MAE (LSTM) AAPL: 13.638867645866785
+2025-03-27 06:27:33,794 - INFO - Loaded config:
+2025-03-27 06:27:33,797 - INFO - Downloading and preprocessing data...
+2025-03-27 06:27:34,851 - INFO - Training new LSTM model...
+2025-03-27 06:27:51,598 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-27 06:27:51,645 - INFO - Model saved to disk.
+2025-03-27 06:27:52,022 - INFO - RMSE (LSTM) AAPL: 7.351711386623178
+2025-03-27 06:27:52,022 - INFO - MAE (LSTM) AAPL: 6.009934617596652
+2025-03-27 06:27:52,024 - INFO - Training new LSTM model...
+2025-03-27 06:28:08,115 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-27 06:28:08,125 - INFO - Model saved to disk.
+2025-03-27 06:28:08,521 - INFO - RMSE (LSTM) AAPL: 18.929184935469408
+2025-03-27 06:28:08,521 - INFO - MAE (LSTM) AAPL: 13.750803106858324
+2025-03-27 06:28:08,524 - INFO - Training new LSTM model...
+2025-03-27 06:28:24,709 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-27 06:28:24,719 - INFO - Model saved to disk.
+2025-03-27 06:28:24,882 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x31584d120> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 06:28:25,034 - INFO - RMSE (LSTM) AAPL: 9.55045786139076
+2025-03-27 06:28:25,034 - INFO - MAE (LSTM) AAPL: 8.13625827231426
+2025-03-27 06:28:25,036 - INFO - Training new LSTM model...
+2025-03-27 06:28:44,267 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-27 06:28:44,361 - INFO - Model saved to disk.
+2025-03-27 06:28:44,641 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x312dd7d80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 06:28:44,840 - INFO - RMSE (LSTM) AAPL: 1.1619607092722821
+2025-03-27 06:28:44,840 - INFO - MAE (LSTM) AAPL: 0.8758489586147866
+2025-03-27 06:28:44,846 - INFO - Training new LSTM model...
+2025-03-27 06:28:58,593 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-27 06:28:58,603 - INFO - Model saved to disk.
+2025-03-27 06:28:58,908 - INFO - RMSE (LSTM) AAPL: 8.486120031060084
+2025-03-27 06:28:58,908 - INFO - MAE (LSTM) AAPL: 7.190082565246825
+2025-03-27 06:28:58,912 - INFO - Training new LSTM model...
+2025-03-27 06:29:15,628 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-27 06:29:15,637 - INFO - Model saved to disk.
+2025-03-27 06:29:15,921 - INFO - RMSE (LSTM) AAPL: 23.863491308423818
+2025-03-27 06:29:15,921 - INFO - MAE (LSTM) AAPL: 22.287202495831274
+2025-03-27 06:30:36,039 - INFO - Loaded config:
+2025-03-27 06:30:36,041 - INFO - Downloading and preprocessing data...
+2025-03-27 06:30:37,296 - INFO - Loading existing LSTM model...
+2025-03-27 06:30:37,394 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:30:37,737 - INFO - RMSE (LSTM) AAPL: 7.351711494601942
+2025-03-27 06:30:37,737 - INFO - MAE (LSTM) AAPL: 6.00993479853091
+2025-03-27 06:30:37,739 - INFO - Loading existing LSTM model...
+2025-03-27 06:30:37,768 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:30:38,121 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-27 06:30:38,122 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-27 06:30:38,124 - INFO - Loading existing LSTM model...
+2025-03-27 06:30:38,152 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:30:38,269 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x308f46700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 06:30:38,413 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-27 06:30:38,413 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-27 06:30:38,415 - INFO - Loading existing LSTM model...
+2025-03-27 06:30:38,443 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:30:38,563 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30973a340> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 06:30:38,713 - INFO - RMSE (LSTM) KO: 1.1619606073872601
+2025-03-27 06:30:38,713 - INFO - MAE (LSTM) KO: 0.875848626901981
+2025-03-27 06:30:38,715 - INFO - Loading existing LSTM model...
+2025-03-27 06:30:38,742 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:30:39,007 - INFO - RMSE (LSTM) JPM: 8.486113810998237
+2025-03-27 06:30:39,007 - INFO - MAE (LSTM) JPM: 7.190075817336124
+2025-03-27 06:30:39,009 - INFO - Loading existing LSTM model...
+2025-03-27 06:30:39,038 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 06:30:39,307 - INFO - RMSE (LSTM) NVDA: 23.863493243351865
+2025-03-27 06:30:39,307 - INFO - MAE (LSTM) NVDA: 22.28720439564098
+2025-03-27 15:14:26,182 - INFO - Loaded config:
+2025-03-27 15:14:26,185 - INFO - Downloading and preprocessing data...
+2025-03-27 15:14:27,435 - INFO - Loading existing LSTM model...
+2025-03-27 15:14:27,535 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 15:14:27,859 - INFO - RMSE (LSTM) AAPL: 7.351712422791852
+2025-03-27 15:14:27,859 - INFO - MAE (LSTM) AAPL: 6.009935281022264
+2025-03-27 15:14:27,861 - INFO - Loading existing LSTM model...
+2025-03-27 15:14:27,887 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 15:14:28,222 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-27 15:14:28,222 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-27 15:14:28,224 - INFO - Loading existing LSTM model...
+2025-03-27 15:14:28,251 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 15:14:28,369 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x309346700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 15:14:28,515 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-27 15:14:28,516 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-27 15:14:28,518 - INFO - Loading existing LSTM model...
+2025-03-27 15:14:28,545 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 15:14:28,663 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30963e340> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 15:14:28,804 - INFO - RMSE (LSTM) KO: 1.161961208806996
+2025-03-27 15:14:28,804 - INFO - MAE (LSTM) KO: 0.8758495014175596
+2025-03-27 15:14:28,806 - INFO - Loading existing LSTM model...
+2025-03-27 15:14:28,831 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 15:14:29,087 - INFO - RMSE (LSTM) JPM: 8.486117991544047
+2025-03-27 15:14:29,087 - INFO - MAE (LSTM) JPM: 7.190081288615071
+2025-03-27 15:14:29,089 - INFO - Loading existing LSTM model...
+2025-03-27 15:14:29,114 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 15:14:29,370 - INFO - RMSE (LSTM) NVDA: 23.86349091575948
+2025-03-27 15:14:29,370 - INFO - MAE (LSTM) NVDA: 22.28720207365134
+2025-03-27 15:14:29,379 - INFO - Stock    RMSE     MAE
+ AAPL  7.3517  6.0099
+ TSLA 18.9292 13.7508
+ AMZN  9.5505  8.1363
+   KO  1.1620  0.8758
+  JPM  8.4861  7.1901
+ NVDA 23.8635 22.2872
+2025-03-27 16:42:23,767 - INFO - Loaded config:
+2025-03-27 16:42:23,769 - INFO - Downloading and preprocessing data...
+2025-03-27 16:42:24,996 - INFO - Loading existing LSTM model...
+2025-03-27 16:42:25,084 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 16:42:25,431 - INFO - RMSE (LSTM) AAPL: 7.351709029169681
+2025-03-27 16:42:25,431 - INFO - MAE (LSTM) AAPL: 6.009932687631237
+2025-03-27 16:42:25,433 - INFO - Loading existing LSTM model...
+2025-03-27 16:42:25,459 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 16:42:25,805 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-27 16:42:25,805 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-27 16:42:25,807 - INFO - Loading existing LSTM model...
+2025-03-27 16:42:25,835 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 16:42:25,953 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30f2ce700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 16:42:26,090 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-27 16:42:26,090 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-27 16:42:26,092 - INFO - Loading existing LSTM model...
+2025-03-27 16:42:26,126 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 16:42:26,244 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30f4ca340> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 16:42:26,385 - INFO - RMSE (LSTM) KO: 1.1619612357325955
+2025-03-27 16:42:26,385 - INFO - MAE (LSTM) KO: 0.8758495315732692
+2025-03-27 16:42:26,387 - INFO - Loading existing LSTM model...
+2025-03-27 16:42:26,412 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 16:42:26,675 - INFO - RMSE (LSTM) JPM: 8.486113375802033
+2025-03-27 16:42:26,675 - INFO - MAE (LSTM) JPM: 7.190075938920101
+2025-03-27 16:42:26,677 - INFO - Loading existing LSTM model...
+2025-03-27 16:42:26,703 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 16:42:26,956 - INFO - RMSE (LSTM) NVDA: 23.863491862077385
+2025-03-27 16:42:26,956 - INFO - MAE (LSTM) NVDA: 22.287203129101176
+2025-03-27 16:42:26,966 - INFO - Stock    RMSE     MAE
+ AAPL  7.3517  6.0099
+ TSLA 18.9292 13.7508
+ AMZN  9.5505  8.1363
+   KO  1.1620  0.8758
+  JPM  8.4861  7.1901
+ NVDA 23.8635 22.2872
+2025-03-27 20:33:10,766 - INFO - Loaded config:
+2025-03-27 20:34:01,800 - INFO - Loaded config:
+2025-03-27 20:34:01,802 - INFO - Downloading and preprocessing data...
+2025-03-27 20:34:03,853 - INFO - Loading existing LSTM model...
+2025-03-27 20:34:03,941 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:34:04,260 - INFO - RMSE (LSTM) AAPL: 7.351715308528355
+2025-03-27 20:34:04,260 - INFO - MAE (LSTM) AAPL: 6.009937753790452
+2025-03-27 20:34:04,262 - INFO - Loading existing LSTM model...
+2025-03-27 20:34:04,293 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:34:04,619 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-27 20:34:04,619 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-27 20:34:04,621 - INFO - Loading existing LSTM model...
+2025-03-27 20:34:04,648 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:34:04,773 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x17744a160> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 20:34:04,914 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-27 20:34:04,914 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-27 20:34:04,917 - INFO - Loading existing LSTM model...
+2025-03-27 20:34:04,943 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:34:05,058 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x177641ee0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 20:34:05,197 - INFO - RMSE (LSTM) KO: 1.1619602404336913
+2025-03-27 20:34:05,197 - INFO - MAE (LSTM) KO: 0.8758484308898684
+2025-03-27 20:34:05,199 - INFO - Loading existing LSTM model...
+2025-03-27 20:34:05,225 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:34:05,477 - INFO - RMSE (LSTM) JPM: 8.486116872496668
+2025-03-27 20:34:05,477 - INFO - MAE (LSTM) JPM: 7.190079160895481
+2025-03-27 20:34:05,479 - INFO - Loading existing LSTM model...
+2025-03-27 20:34:05,505 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:34:05,758 - INFO - RMSE (LSTM) NVDA: 23.863490865931094
+2025-03-27 20:34:05,758 - INFO - MAE (LSTM) NVDA: 22.28720207365134
+2025-03-27 20:34:05,768 - INFO - Stock    RMSE     MAE
+ AAPL  7.3517  6.0099
+ TSLA 18.9292 13.7508
+ AMZN  9.5505  8.1363
+   KO  1.1620  0.8758
+  JPM  8.4861  7.1901
+ NVDA 23.8635 22.2872
+2025-03-27 20:35:46,168 - INFO - Loaded config:
+2025-03-27 20:35:46,171 - INFO - Downloading and preprocessing data...
+2025-03-27 20:35:47,539 - INFO - Loading existing LSTM model...
+2025-03-27 20:35:47,630 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:35:47,956 - INFO - RMSE (LSTM) AAPL: 7.351711400576871
+2025-03-27 20:35:47,956 - INFO - MAE (LSTM) AAPL: 6.009934376350976
+2025-03-27 20:35:47,959 - INFO - Loading existing LSTM model...
+2025-03-27 20:35:47,985 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:35:48,317 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-27 20:35:48,317 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-27 20:35:48,320 - INFO - Loading existing LSTM model...
+2025-03-27 20:35:48,345 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:35:48,468 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30c1467a0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 20:35:48,622 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-27 20:35:48,622 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-27 20:35:48,625 - INFO - Loading existing LSTM model...
+2025-03-27 20:35:48,651 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:35:48,770 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30c33e340> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 20:35:48,909 - INFO - RMSE (LSTM) KO: 1.1619606944404701
+2025-03-27 20:35:48,909 - INFO - MAE (LSTM) KO: 0.8758490340040607
+2025-03-27 20:35:48,911 - INFO - Loading existing LSTM model...
+2025-03-27 20:35:48,937 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:35:49,190 - INFO - RMSE (LSTM) JPM: 8.486115725108936
+2025-03-27 20:35:49,190 - INFO - MAE (LSTM) JPM: 7.19007739792782
+2025-03-27 20:35:49,192 - INFO - Loading existing LSTM model...
+2025-03-27 20:35:49,218 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 20:35:49,475 - INFO - RMSE (LSTM) NVDA: 23.86349108198537
+2025-03-27 20:35:49,475 - INFO - MAE (LSTM) NVDA: 22.287202345052727
+2025-03-27 20:35:49,483 - INFO - Stock    RMSE     MAE
+ AAPL  7.3517  6.0099
+ TSLA 18.9292 13.7508
+ AMZN  9.5505  8.1363
+   KO  1.1620  0.8758
+  JPM  8.4861  7.1901
+ NVDA 23.8635 22.2872
+2025-03-27 21:01:38,518 - INFO - Loaded config:
+2025-03-27 21:01:38,521 - INFO - Downloading and preprocessing data...
+2025-03-27 21:06:39,650 - INFO - Loaded config:
+2025-03-27 21:06:39,652 - INFO - Downloading and preprocessing data...
+2025-03-27 22:40:48,726 - INFO - Loaded config:
+2025-03-27 22:40:48,730 - INFO - Downloading and preprocessing data...
+2025-03-27 22:45:33,901 - INFO - Loaded config:
+2025-03-27 22:45:33,903 - INFO - Downloading and preprocessing data...
+2025-03-27 23:09:10,068 - INFO - Loaded config:
+2025-03-27 23:09:10,070 - INFO - Downloading and preprocessing data...
+2025-03-27 23:13:30,933 - INFO - Loaded config:
+2025-03-27 23:13:30,936 - INFO - Downloading and preprocessing data...
+2025-03-27 23:15:17,970 - INFO - Loaded config:
+2025-03-27 23:15:17,972 - INFO - Downloading and preprocessing data...
+2025-03-27 23:16:04,151 - INFO - Loaded config:
+2025-03-27 23:16:04,152 - INFO - Downloading and preprocessing data...
+2025-03-27 23:28:53,649 - INFO - Loaded config:
+2025-03-27 23:28:53,649 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-27 23:28:53,649 - INFO - Downloading and preprocessing data...
+2025-03-27 23:28:55,655 - INFO - Loading existing LSTM model...
+2025-03-27 23:28:55,743 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:28:56,065 - INFO - RMSE (LSTM) AAPL: 7.351710246731848
+2025-03-27 23:28:56,065 - INFO - MAE (LSTM) AAPL: 6.009933712925364
+2025-03-27 23:28:56,070 - INFO - Loading existing LSTM model...
+2025-03-27 23:28:56,098 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:28:56,485 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-27 23:28:56,485 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-27 23:28:56,489 - INFO - Loading existing LSTM model...
+2025-03-27 23:28:56,516 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:28:56,638 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x3060a6660> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 23:28:56,776 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-27 23:28:56,777 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-27 23:28:56,783 - INFO - Loading existing LSTM model...
+2025-03-27 23:28:56,812 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:28:56,934 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x306306200> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 23:28:57,075 - INFO - RMSE (LSTM) KO: 1.161960315754379
+2025-03-27 23:28:57,075 - INFO - MAE (LSTM) KO: 0.875848853069803
+2025-03-27 23:28:57,080 - INFO - Loading existing LSTM model...
+2025-03-27 23:28:57,106 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:28:57,392 - INFO - RMSE (LSTM) JPM: 8.48612028202775
+2025-03-27 23:28:57,392 - INFO - MAE (LSTM) JPM: 7.190082078910919
+2025-03-27 23:28:57,396 - INFO - Loading existing LSTM model...
+2025-03-27 23:28:57,423 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:28:57,678 - INFO - RMSE (LSTM) NVDA: 23.86349636898328
+2025-03-27 23:28:57,678 - INFO - MAE (LSTM) NVDA: 22.287206838253457
+2025-03-27 23:28:57,688 - INFO - Stock    RMSE     MAE
+ AAPL  7.3517  6.0099
+ TSLA 18.9292 13.7508
+ AMZN  9.5505  8.1363
+   KO  1.1620  0.8758
+  JPM  8.4861  7.1901
+ NVDA 23.8635 22.2872
+2025-03-27 23:39:00,808 - INFO - Loaded config:
+2025-03-27 23:39:00,808 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-27 23:39:00,812 - INFO - Downloading and preprocessing data...
+2025-03-27 23:39:01,972 - INFO - Loading existing LSTM model...
+2025-03-27 23:39:02,059 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:39:02,404 - INFO - RMSE (LSTM) AAPL: 7.351709089730445
+2025-03-27 23:39:02,404 - INFO - MAE (LSTM) AAPL: 6.009932868565495
+2025-03-27 23:39:02,409 - INFO - Loading existing LSTM model...
+2025-03-27 23:39:02,447 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:39:02,785 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-27 23:39:02,785 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-27 23:39:02,789 - INFO - Loading existing LSTM model...
+2025-03-27 23:39:02,818 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:39:02,940 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30711a660> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 23:39:03,080 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-27 23:39:03,080 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-27 23:39:03,085 - INFO - Loading existing LSTM model...
+2025-03-27 23:39:03,112 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:39:03,231 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x307206200> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-27 23:39:03,372 - INFO - RMSE (LSTM) KO: 1.161960577321443
+2025-03-27 23:39:03,372 - INFO - MAE (LSTM) KO: 0.8758486872134001
+2025-03-27 23:39:03,376 - INFO - Loading existing LSTM model...
+2025-03-27 23:39:03,402 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:39:03,659 - INFO - RMSE (LSTM) JPM: 8.486117455162454
+2025-03-27 23:39:03,659 - INFO - MAE (LSTM) JPM: 7.190080072775305
+2025-03-27 23:39:03,663 - INFO - Loading existing LSTM model...
+2025-03-27 23:39:03,689 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-27 23:39:03,946 - INFO - RMSE (LSTM) NVDA: 23.863497104911577
+2025-03-27 23:39:03,946 - INFO - MAE (LSTM) NVDA: 22.28720762230191
+2025-03-27 23:39:03,956 - INFO - Stock    RMSE     MAE
+ AAPL  7.3517  6.0099
+ TSLA 18.9292 13.7508
+ AMZN  9.5505  8.1363
+   KO  1.1620  0.8758
+  JPM  8.4861  7.1901
+ NVDA 23.8635 22.2872
+2025-03-28 00:20:19,112 - INFO - Loaded config:
+2025-03-28 00:20:19,112 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 00:20:19,113 - INFO - Downloading and preprocessing data...
+2025-03-28 00:20:20,173 - INFO - Loading existing LSTM model...
+2025-03-28 00:20:20,261 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:20:20,601 - INFO - RMSE (Moving_Average) AAPL: 4.940558396385409
+2025-03-28 00:20:20,601 - INFO - MAE (Moving_Average) AAPL: 3.8630950635233616
+2025-03-28 00:20:20,601 - INFO - RMSE (LSTM) AAPL: 7.351712852214778
+2025-03-28 00:20:20,601 - INFO - MAE (LSTM) AAPL: 6.0099354016451025
+2025-03-28 00:20:20,606 - INFO - Loading existing LSTM model...
+2025-03-28 00:20:20,633 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:20:20,986 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 00:20:20,986 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 00:20:20,987 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 00:20:20,987 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 00:20:20,991 - INFO - Loading existing LSTM model...
+2025-03-28 00:20:21,018 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:20:21,140 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30581a8e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 00:20:21,284 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 00:20:21,284 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 00:20:21,284 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 00:20:21,284 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 00:20:21,291 - INFO - Loading existing LSTM model...
+2025-03-28 00:20:21,321 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:20:21,442 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x305a023e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 00:20:21,590 - INFO - RMSE (Moving_Average) KO: 0.886646271443205
+2025-03-28 00:20:21,590 - INFO - MAE (Moving_Average) KO: 0.6569777321129943
+2025-03-28 00:20:21,590 - INFO - RMSE (LSTM) KO: 1.1619605615669921
+2025-03-28 00:20:21,590 - INFO - MAE (LSTM) KO: 0.8758490038483511
+2025-03-28 00:20:21,594 - INFO - Loading existing LSTM model...
+2025-03-28 00:20:21,621 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:20:21,876 - INFO - RMSE (Moving_Average) JPM: 4.725568143525599
+2025-03-28 00:20:21,877 - INFO - MAE (Moving_Average) JPM: 3.4513842125797582
+2025-03-28 00:20:21,877 - INFO - RMSE (LSTM) JPM: 8.486112295952848
+2025-03-28 00:20:21,877 - INFO - MAE (LSTM) JPM: 7.19007454070437
+2025-03-28 00:20:21,881 - INFO - Loading existing LSTM model...
+2025-03-28 00:20:21,907 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:20:22,181 - INFO - RMSE (Moving_Average) NVDA: 5.510085175435757
+2025-03-28 00:20:22,181 - INFO - MAE (Moving_Average) NVDA: 4.222381235920964
+2025-03-28 00:20:22,181 - INFO - RMSE (LSTM) NVDA: 23.863489134280577
+2025-03-28 00:20:22,181 - INFO - MAE (LSTM) NVDA: 22.287200203997344
+2025-03-28 00:20:22,197 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL          LSTM  7.3517  6.0099
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA          LSTM 18.9292 13.7508
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN          LSTM  9.5505  8.1363
+   KO MovingAverage  0.8866  0.6570
+   KO          LSTM  1.1620  0.8758
+  JPM MovingAverage  4.7256  3.4514
+  JPM          LSTM  8.4861  7.1901
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA          LSTM 23.8635 22.2872
+2025-03-28 00:40:27,984 - INFO - Loaded config:
+2025-03-28 00:40:27,984 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 00:40:27,984 - INFO - Downloading and preprocessing data...
+2025-03-28 00:48:52,507 - INFO - Loaded config:
+2025-03-28 00:48:52,507 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 00:48:52,507 - INFO - Downloading and preprocessing data...
+2025-03-28 00:57:37,644 - INFO - Loaded config:
+2025-03-28 00:57:37,644 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 00:57:37,645 - INFO - Downloading and preprocessing data...
+2025-03-28 00:57:59,932 - INFO - Loading existing LSTM model...
+2025-03-28 00:58:00,103 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:58:00,434 - INFO - RMSE (Moving_Average) AAPL: 4.940558065319751
+2025-03-28 00:58:00,434 - INFO - MAE (Moving_Average) AAPL: 3.863094888022913
+2025-03-28 00:58:00,434 - INFO - RMSE (Arima) AAPL: 3.174788042737093
+2025-03-28 00:58:00,435 - INFO - MAE (Arima) AAPL: 2.316026870056768
+2025-03-28 00:58:00,435 - INFO - RMSE (LSTM) AAPL: 7.3517130481938375
+2025-03-28 00:58:00,435 - INFO - MAE (LSTM) AAPL: 6.009935039776587
+2025-03-28 00:58:28,392 - INFO - Loading existing LSTM model...
+2025-03-28 00:58:28,532 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:58:28,955 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 00:58:28,955 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 00:58:28,955 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 00:58:28,955 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 00:58:28,955 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 00:58:28,955 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 00:58:49,275 - INFO - Loading existing LSTM model...
+2025-03-28 00:58:49,396 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:58:49,562 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x31294b100> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 00:58:49,706 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 00:58:49,706 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 00:58:49,706 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 00:58:49,706 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 00:58:49,706 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 00:58:49,706 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 00:59:25,592 - INFO - Loading existing LSTM model...
+2025-03-28 00:59:25,865 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:59:26,256 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x3084b4900> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 00:59:26,454 - INFO - RMSE (Moving_Average) KO: 0.8866463131107858
+2025-03-28 00:59:26,454 - INFO - MAE (Moving_Average) KO: 0.6569778881133935
+2025-03-28 00:59:26,454 - INFO - RMSE (Arima) KO: 0.5878465729880974
+2025-03-28 00:59:26,454 - INFO - MAE (Arima) KO: 0.4339921785231797
+2025-03-28 00:59:26,454 - INFO - RMSE (LSTM) KO: 1.1619612683798373
+2025-03-28 00:59:26,454 - INFO - MAE (LSTM) KO: 0.8758495014175596
+2025-03-28 00:59:46,720 - INFO - Loading existing LSTM model...
+2025-03-28 00:59:46,821 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 00:59:47,198 - INFO - RMSE (Moving_Average) JPM: 4.725567781067063
+2025-03-28 00:59:47,198 - INFO - MAE (Moving_Average) JPM: 3.4513834471871228
+2025-03-28 00:59:47,198 - INFO - RMSE (Arima) JPM: 3.1471052981834324
+2025-03-28 00:59:47,198 - INFO - MAE (Arima) JPM: 2.0605514189386027
+2025-03-28 00:59:47,198 - INFO - RMSE (LSTM) JPM: 8.486112622006102
+2025-03-28 00:59:47,198 - INFO - MAE (LSTM) JPM: 7.190075087832264
+2025-03-28 01:00:16,302 - INFO - Loading existing LSTM model...
+2025-03-28 01:00:17,164 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:00:18,587 - INFO - RMSE (Moving_Average) NVDA: 5.510085015405249
+2025-03-28 01:00:18,587 - INFO - MAE (Moving_Average) NVDA: 4.22238123835847
+2025-03-28 01:00:18,587 - INFO - RMSE (Arima) NVDA: 3.9560326108251167
+2025-03-28 01:00:18,587 - INFO - MAE (Arima) NVDA: 2.856358294958843
+2025-03-28 01:00:18,587 - INFO - RMSE (LSTM) NVDA: 23.86349121242446
+2025-03-28 01:00:18,588 - INFO - MAE (LSTM) NVDA: 22.287202495831274
+2025-03-28 01:00:18,808 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL         Arima  3.1748  2.3160
+ AAPL          LSTM  7.3517  6.0099
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA         Arima 10.8803  7.6139
+ TSLA          LSTM 18.9292 13.7508
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN         Arima  3.3536  2.5255
+ AMZN          LSTM  9.5505  8.1363
+   KO MovingAverage  0.8866  0.6570
+   KO         Arima  0.5878  0.4340
+   KO          LSTM  1.1620  0.8758
+  JPM MovingAverage  4.7256  3.4514
+  JPM         Arima  3.1471  2.0606
+  JPM          LSTM  8.4861  7.1901
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA         Arima  3.9560  2.8564
+ NVDA          LSTM 23.8635 22.2872
+2025-03-28 01:47:40,499 - INFO - Loaded config:
+2025-03-28 01:47:40,499 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 01:50:38,100 - INFO - Loaded config:
+2025-03-28 01:50:38,100 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 01:50:38,101 - INFO - Downloading and preprocessing data...
+2025-03-28 01:50:58,746 - INFO - Loading existing LSTM model...
+2025-03-28 01:50:58,911 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:50:59,252 - INFO - RMSE (Moving_Average) AAPL: 4.940557983929868
+2025-03-28 01:50:59,252 - INFO - MAE (Moving_Average) AAPL: 3.8630954535243616
+2025-03-28 01:50:59,252 - INFO - RMSE (Arima) AAPL: 3.1747875223914943
+2025-03-28 01:50:59,252 - INFO - MAE (Arima) AAPL: 2.3160263523123423
+2025-03-28 01:50:59,252 - INFO - RMSE (LSTM) AAPL: 7.351709834048699
+2025-03-28 01:50:59,252 - INFO - MAE (LSTM) AAPL: 6.009934195416718
+2025-03-28 01:51:19,414 - INFO - Loading existing LSTM model...
+2025-03-28 01:51:19,455 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:51:19,777 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 01:51:19,777 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 01:51:19,777 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 01:51:19,777 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 01:51:19,777 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 01:51:19,777 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 01:51:36,939 - INFO - Loading existing LSTM model...
+2025-03-28 01:51:36,975 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:51:37,119 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x314d57920> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 01:51:37,285 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 01:51:37,285 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 01:51:37,285 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 01:51:37,285 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 01:51:37,285 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 01:51:37,285 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 01:51:56,662 - INFO - Loading existing LSTM model...
+2025-03-28 01:51:56,699 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:51:56,858 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x3091c5d00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 01:51:57,048 - INFO - RMSE (Moving_Average) KO: 0.8866461190455247
+2025-03-28 01:51:57,048 - INFO - MAE (Moving_Average) KO: 0.6569775712375822
+2025-03-28 01:51:57,048 - INFO - RMSE (Arima) KO: 0.587846324055993
+2025-03-28 01:51:57,048 - INFO - MAE (Arima) KO: 0.4339919075581458
+2025-03-28 01:51:57,048 - INFO - RMSE (LSTM) KO: 1.1619603192000245
+2025-03-28 01:51:57,048 - INFO - MAE (LSTM) KO: 0.8758485062791425
+2025-03-28 01:52:15,222 - INFO - Loading existing LSTM model...
+2025-03-28 01:52:15,375 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:52:15,702 - INFO - RMSE (Moving_Average) JPM: 4.725567797056635
+2025-03-28 01:52:15,702 - INFO - MAE (Moving_Average) JPM: 3.4513835943780147
+2025-03-28 01:52:15,702 - INFO - RMSE (Arima) JPM: 3.1471052305555016
+2025-03-28 01:52:15,702 - INFO - MAE (Arima) JPM: 2.06055158847364
+2025-03-28 01:52:15,702 - INFO - RMSE (LSTM) JPM: 8.486113631112925
+2025-03-28 01:52:15,702 - INFO - MAE (LSTM) JPM: 7.190076121296066
+2025-03-28 01:52:32,008 - INFO - Loading existing LSTM model...
+2025-03-28 01:52:32,096 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:52:32,454 - INFO - RMSE (Moving_Average) NVDA: 5.510085042533323
+2025-03-28 01:52:32,454 - INFO - MAE (Moving_Average) NVDA: 4.22238123835847
+2025-03-28 01:52:32,454 - INFO - RMSE (Arima) NVDA: 3.9560323775477393
+2025-03-28 01:52:32,454 - INFO - MAE (Arima) NVDA: 2.85635952381308
+2025-03-28 01:52:32,454 - INFO - RMSE (LSTM) NVDA: 23.863491796360925
+2025-03-28 01:52:32,454 - INFO - MAE (LSTM) NVDA: 22.28720285769979
+2025-03-28 01:52:32,686 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL         Arima  3.1748  2.3160
+ AAPL          LSTM  7.3517  6.0099
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA         Arima 10.8803  7.6139
+ TSLA          LSTM 18.9292 13.7508
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN         Arima  3.3536  2.5255
+ AMZN          LSTM  9.5505  8.1363
+   KO MovingAverage  0.8866  0.6570
+   KO         Arima  0.5878  0.4340
+   KO          LSTM  1.1620  0.8758
+  JPM MovingAverage  4.7256  3.4514
+  JPM         Arima  3.1471  2.0606
+  JPM          LSTM  8.4861  7.1901
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA         Arima  3.9560  2.8564
+ NVDA          LSTM 23.8635 22.2872
+2025-03-28 01:57:27,977 - INFO - Loaded config:
+2025-03-28 01:57:27,977 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 01:57:27,978 - INFO - Downloading and preprocessing data...
+2025-03-28 01:57:47,008 - INFO - Loading existing LSTM model...
+2025-03-28 01:57:47,154 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:57:47,497 - INFO - RMSE (Moving_Average) AAPL: 4.940558465920455
+2025-03-28 01:57:47,497 - INFO - MAE (Moving_Average) AAPL: 3.8630953755241615
+2025-03-28 01:57:47,497 - INFO - RMSE (Arima) AAPL: 3.174788104896507
+2025-03-28 01:57:47,497 - INFO - MAE (Arima) AAPL: 2.316027620004839
+2025-03-28 01:57:47,497 - INFO - RMSE (LSTM) AAPL: 7.351714873016874
+2025-03-28 01:57:47,497 - INFO - MAE (LSTM) AAPL: 6.009936547562067
+2025-03-28 01:58:06,735 - INFO - Loading existing LSTM model...
+2025-03-28 01:58:06,773 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:58:07,091 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 01:58:07,091 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 01:58:07,091 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 01:58:07,091 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 01:58:07,091 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 01:58:07,091 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 01:58:25,562 - INFO - Loading existing LSTM model...
+2025-03-28 01:58:25,668 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:58:25,898 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x318677600> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 01:58:26,511 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 01:58:26,511 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 01:58:26,511 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 01:58:26,511 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 01:58:26,511 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 01:58:26,511 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 01:58:46,225 - INFO - Loading existing LSTM model...
+2025-03-28 01:58:46,269 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:58:46,418 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x3112adda0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 01:58:46,596 - INFO - RMSE (Moving_Average) KO: 0.886646108919051
+2025-03-28 01:58:46,596 - INFO - MAE (Moving_Average) KO: 0.6569776248627194
+2025-03-28 01:58:46,596 - INFO - RMSE (Arima) KO: 0.5878465897139551
+2025-03-28 01:58:46,596 - INFO - MAE (Arima) KO: 0.4339922106643402
+2025-03-28 01:58:46,596 - INFO - RMSE (LSTM) KO: 1.1619599594863141
+2025-03-28 01:58:46,596 - INFO - MAE (LSTM) KO: 0.8758483253448848
+2025-03-28 01:59:02,271 - INFO - Loading existing LSTM model...
+2025-03-28 01:59:02,325 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:59:02,657 - INFO - RMSE (Moving_Average) JPM: 4.725568015186175
+2025-03-28 01:59:02,657 - INFO - MAE (Moving_Average) JPM: 3.4513837611943576
+2025-03-28 01:59:02,657 - INFO - RMSE (Arima) JPM: 3.147105427468788
+2025-03-28 01:59:02,657 - INFO - MAE (Arima) JPM: 2.060551328012657
+2025-03-28 01:59:02,657 - INFO - RMSE (LSTM) JPM: 8.486120159471003
+2025-03-28 01:59:02,657 - INFO - MAE (LSTM) JPM: 7.190081957326942
+2025-03-28 01:59:18,391 - INFO - Loading existing LSTM model...
+2025-03-28 01:59:18,423 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 01:59:18,762 - INFO - RMSE (Moving_Average) NVDA: 5.510085031812479
+2025-03-28 01:59:18,762 - INFO - MAE (Moving_Average) NVDA: 4.222381194483359
+2025-03-28 01:59:18,762 - INFO - RMSE (Arima) NVDA: 3.9560323407729943
+2025-03-28 01:59:18,762 - INFO - MAE (Arima) NVDA: 2.8563594062027806
+2025-03-28 01:59:18,762 - INFO - RMSE (LSTM) NVDA: 23.863491048565894
+2025-03-28 01:59:18,762 - INFO - MAE (LSTM) NVDA: 22.287202133962758
+2025-03-28 01:59:19,152 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL         Arima  3.1748  2.3160
+ AAPL          LSTM  7.3517  6.0099
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA         Arima 10.8803  7.6139
+ TSLA          LSTM 18.9292 13.7508
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN         Arima  3.3536  2.5255
+ AMZN          LSTM  9.5505  8.1363
+   KO MovingAverage  0.8866  0.6570
+   KO         Arima  0.5878  0.4340
+   KO          LSTM  1.1620  0.8758
+  JPM MovingAverage  4.7256  3.4514
+  JPM         Arima  3.1471  2.0606
+  JPM          LSTM  8.4861  7.1901
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA         Arima  3.9560  2.8564
+ NVDA          LSTM 23.8635 22.2872
+2025-03-28 02:31:02,846 - INFO - Loaded config:
+2025-03-28 02:31:02,846 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 02:31:02,846 - INFO - Downloading and preprocessing data...
+2025-03-28 02:31:21,814 - INFO - Loading existing LSTM model...
+2025-03-28 02:31:22,020 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 02:31:22,400 - INFO - Training CNN-LSTM model...
+2025-03-28 02:41:13,129 - INFO - Loaded config:
+2025-03-28 02:41:13,129 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 02:41:13,129 - INFO - Downloading and preprocessing data...
+2025-03-28 02:41:34,250 - INFO - Loading existing LSTM model...
+2025-03-28 02:41:34,491 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 02:41:34,875 - INFO - Training CNN-LSTM model...
+2025-03-28 02:44:59,576 - INFO - Loaded config:
+2025-03-28 02:44:59,576 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 02:44:59,576 - INFO - Downloading and preprocessing data...
+2025-03-28 02:45:23,244 - INFO - Loading existing LSTM model...
+2025-03-28 02:45:23,494 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 02:45:23,952 - INFO - Training CNN-LSTM model...
+2025-03-28 02:45:34,023 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-28 02:45:34,471 - INFO - CNN-LSTM model saved.
+2025-03-28 02:45:35,102 - INFO - RMSE (Moving_Average) AAPL: 4.940557955841302
+2025-03-28 02:45:35,103 - INFO - MAE (Moving_Average) AAPL: 3.8630954340243115
+2025-03-28 02:45:35,103 - INFO - RMSE (Arima) AAPL: 3.174787310895589
+2025-03-28 02:45:35,103 - INFO - MAE (Arima) AAPL: 2.3160263727260633
+2025-03-28 02:45:35,103 - INFO - RMSE (LSTM) AAPL: 7.351715395214766
+2025-03-28 02:45:35,103 - INFO - MAE (LSTM) AAPL: 6.00993793472471
+2025-03-28 02:45:35,103 - INFO - RMSE (CNN-LSTM) AAPL: 13.970595962134185
+2025-03-28 02:45:35,103 - INFO - MAE (CNN-LSTM) AAPL: 12.680715689074852
+2025-03-28 02:46:05,965 - INFO - Loading existing LSTM model...
+2025-03-28 02:46:07,966 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 02:46:09,015 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x147dbfec0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 02:46:09,404 - INFO - Training CNN-LSTM model...
+2025-03-28 02:46:19,960 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-28 02:46:20,079 - INFO - CNN-LSTM model saved.
+2025-03-28 02:46:20,483 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x147d4ca40> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 02:46:20,660 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 02:46:20,660 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 02:46:20,660 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 02:46:20,660 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 02:46:20,660 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 02:46:20,660 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 02:46:20,660 - INFO - RMSE (CNN-LSTM) TSLA: 22.292105577658223
+2025-03-28 02:46:20,660 - INFO - MAE (CNN-LSTM) TSLA: 15.69176715353261
+2025-03-28 02:46:43,868 - INFO - Loading existing LSTM model...
+2025-03-28 02:46:44,064 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 02:46:44,747 - INFO - Training CNN-LSTM model...
+2025-03-28 02:46:51,274 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-28 02:46:51,315 - INFO - CNN-LSTM model saved.
+2025-03-28 02:46:51,561 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 02:46:51,563 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 02:46:51,563 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 02:46:51,563 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 02:46:51,563 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 02:46:51,563 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 02:46:51,563 - INFO - RMSE (CNN-LSTM) AMZN: 6.133453816780745
+2025-03-28 02:46:51,563 - INFO - MAE (CNN-LSTM) AMZN: 4.939591177838593
+2025-03-28 02:47:12,172 - INFO - Loading existing LSTM model...
+2025-03-28 02:47:12,293 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 02:47:12,951 - INFO - Training CNN-LSTM model...
+2025-03-28 02:47:18,954 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-28 02:47:18,968 - INFO - CNN-LSTM model saved.
+2025-03-28 02:47:19,161 - INFO - RMSE (Moving_Average) KO: 0.8866463200122529
+2025-03-28 02:47:19,162 - INFO - MAE (Moving_Average) KO: 0.6569778661758373
+2025-03-28 02:47:19,162 - INFO - RMSE (Arima) KO: 0.5878466466390561
+2025-03-28 02:47:19,162 - INFO - MAE (Arima) KO: 0.43399221966657064
+2025-03-28 02:47:19,162 - INFO - RMSE (LSTM) KO: 1.1619610614563154
+2025-03-28 02:47:19,162 - INFO - MAE (LSTM) KO: 0.8758493807947212
+2025-03-28 02:47:19,162 - INFO - RMSE (CNN-LSTM) KO: 2.4257684185224586
+2025-03-28 02:47:19,162 - INFO - MAE (CNN-LSTM) KO: 2.119684091198586
+2025-03-28 02:47:33,447 - INFO - Loading existing LSTM model...
+2025-03-28 02:47:33,483 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 02:47:33,810 - INFO - Training CNN-LSTM model...
+2025-03-28 02:47:38,994 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-28 02:47:39,004 - INFO - CNN-LSTM model saved.
+2025-03-28 02:47:39,198 - INFO - RMSE (Moving_Average) JPM: 4.725567797056635
+2025-03-28 02:47:39,198 - INFO - MAE (Moving_Average) JPM: 3.4513835943780147
+2025-03-28 02:47:39,198 - INFO - RMSE (Arima) JPM: 3.1471052024368364
+2025-03-28 02:47:39,198 - INFO - MAE (Arima) JPM: 2.060551581376599
+2025-03-28 02:47:39,198 - INFO - RMSE (LSTM) JPM: 8.486119745373466
+2025-03-28 02:47:39,198 - INFO - MAE (LSTM) JPM: 7.190082565246825
+2025-03-28 02:47:39,198 - INFO - RMSE (CNN-LSTM) JPM: 13.171325463424985
+2025-03-28 02:47:39,198 - INFO - MAE (CNN-LSTM) JPM: 12.039154113526363
+2025-03-28 02:47:54,698 - INFO - Loading existing LSTM model...
+2025-03-28 02:47:54,755 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 02:47:55,085 - INFO - Training CNN-LSTM model...
+2025-03-28 02:48:00,494 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-03-28 02:48:00,501 - INFO - CNN-LSTM model saved.
+2025-03-28 02:48:00,670 - INFO - RMSE (Moving_Average) NVDA: 5.510085047542562
+2025-03-28 02:48:00,670 - INFO - MAE (Moving_Average) NVDA: 4.22238127735857
+2025-03-28 02:48:00,670 - INFO - RMSE (Arima) NVDA: 3.956032574798235
+2025-03-28 02:48:00,670 - INFO - MAE (Arima) NVDA: 2.8563592341228268
+2025-03-28 02:48:00,670 - INFO - RMSE (LSTM) NVDA: 23.863498654765348
+2025-03-28 02:48:00,670 - INFO - MAE (LSTM) NVDA: 22.287209250710227
+2025-03-28 02:48:00,670 - INFO - RMSE (CNN-LSTM) NVDA: 15.113412753616512
+2025-03-28 02:48:00,670 - INFO - MAE (CNN-LSTM) NVDA: 13.688791599198293
+2025-03-28 02:48:00,975 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL         Arima  3.1748  2.3160
+ AAPL          LSTM  7.3517  6.0099
+ AAPL      CNN-LSTM 13.9706 12.6807
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA         Arima 10.8803  7.6139
+ TSLA          LSTM 18.9292 13.7508
+ TSLA      CNN-LSTM 22.2921 15.6918
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN         Arima  3.3536  2.5255
+ AMZN          LSTM  9.5505  8.1363
+ AMZN      CNN-LSTM  6.1335  4.9396
+   KO MovingAverage  0.8866  0.6570
+   KO         Arima  0.5878  0.4340
+   KO          LSTM  1.1620  0.8758
+   KO      CNN-LSTM  2.4258  2.1197
+  JPM MovingAverage  4.7256  3.4514
+  JPM         Arima  3.1471  2.0606
+  JPM          LSTM  8.4861  7.1901
+  JPM      CNN-LSTM 13.1713 12.0392
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA         Arima  3.9560  2.8564
+ NVDA          LSTM 23.8635 22.2872
+ NVDA      CNN-LSTM 15.1134 13.6888
+2025-03-28 03:04:07,200 - INFO - Loaded config:
+2025-03-28 03:04:07,203 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 03:04:07,203 - INFO - Downloading and preprocessing data...
+2025-03-28 03:04:28,902 - INFO - Loading existing LSTM model...
+2025-03-28 03:04:29,076 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:04:29,450 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 03:04:29,478 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:04:29,672 - INFO - RMSE (Moving_Average) AAPL: 4.94055856043726
+2025-03-28 03:04:29,672 - INFO - MAE (Moving_Average) AAPL: 3.863095209773736
+2025-03-28 03:04:29,672 - INFO - RMSE (Arima) AAPL: 3.174787872628983
+2025-03-28 03:04:29,672 - INFO - MAE (Arima) AAPL: 2.316026099994742
+2025-03-28 03:04:29,672 - INFO - RMSE (LSTM) AAPL: 7.351711161691944
+2025-03-28 03:04:29,672 - INFO - MAE (LSTM) AAPL: 6.009934255728138
+2025-03-28 03:04:29,672 - INFO - RMSE (CNN-LSTM) AAPL: 13.970588711752342
+2025-03-28 03:04:29,672 - INFO - MAE (CNN-LSTM) AAPL: 12.680708391393127
+2025-03-28 03:04:50,913 - INFO - Loading existing LSTM model...
+2025-03-28 03:04:50,952 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:04:51,092 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x31aa03920> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 03:04:51,287 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 03:04:51,309 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:04:51,396 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x31ab35300> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 03:04:51,484 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 03:04:51,484 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 03:04:51,484 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 03:04:51,484 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 03:04:51,484 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 03:04:51,484 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 03:04:51,484 - INFO - RMSE (CNN-LSTM) TSLA: 22.292105577658223
+2025-03-28 03:04:51,484 - INFO - MAE (CNN-LSTM) TSLA: 15.69176715353261
+2025-03-28 03:05:09,609 - INFO - Loading existing LSTM model...
+2025-03-28 03:05:09,646 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:05:09,977 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 03:05:10,000 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:05:10,169 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 03:05:10,169 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 03:05:10,169 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 03:05:10,169 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 03:05:10,169 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 03:05:10,169 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 03:05:10,169 - INFO - RMSE (CNN-LSTM) AMZN: 6.133453816780745
+2025-03-28 03:05:10,169 - INFO - MAE (CNN-LSTM) AMZN: 4.939591177838593
+2025-03-28 03:05:31,932 - INFO - Loading existing LSTM model...
+2025-03-28 03:05:31,971 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:05:32,307 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 03:05:32,332 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:05:32,523 - INFO - RMSE (Moving_Average) KO: 0.8866464012359839
+2025-03-28 03:05:32,523 - INFO - MAE (Moving_Average) KO: 0.6569780221762367
+2025-03-28 03:05:32,523 - INFO - RMSE (Arima) KO: 0.587846754345366
+2025-03-28 03:05:32,523 - INFO - MAE (Arima) KO: 0.43399239707387716
+2025-03-28 03:05:32,523 - INFO - RMSE (LSTM) KO: 1.1619613432161966
+2025-03-28 03:05:32,523 - INFO - MAE (LSTM) KO: 0.8758495014175596
+2025-03-28 03:05:32,523 - INFO - RMSE (CNN-LSTM) KO: 2.425767705749752
+2025-03-28 03:05:32,523 - INFO - MAE (CNN-LSTM) KO: 2.119683684096506
+2025-03-28 03:05:50,744 - INFO - Loading existing LSTM model...
+2025-03-28 03:05:50,783 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:05:51,112 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 03:05:51,135 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:05:51,597 - INFO - RMSE (Moving_Average) JPM: 4.725568226566268
+2025-03-28 03:05:51,598 - INFO - MAE (Moving_Average) JPM: 3.4513843793961008
+2025-03-28 03:05:51,598 - INFO - RMSE (Arima) JPM: 3.1471049818348247
+2025-03-28 03:05:51,598 - INFO - MAE (Arima) JPM: 2.0605508692831926
+2025-03-28 03:05:51,598 - INFO - RMSE (LSTM) JPM: 8.48611722913992
+2025-03-28 03:05:51,598 - INFO - MAE (LSTM) JPM: 7.190079768815363
+2025-03-28 03:05:51,598 - INFO - RMSE (CNN-LSTM) JPM: 13.17132163388951
+2025-03-28 03:05:51,598 - INFO - MAE (CNN-LSTM) JPM: 12.03915101313496
+2025-03-28 03:06:07,114 - INFO - Loading existing LSTM model...
+2025-03-28 03:06:07,157 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:06:07,474 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 03:06:07,502 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 03:06:07,679 - INFO - RMSE (Moving_Average) NVDA: 5.510085224022569
+2025-03-28 03:06:07,679 - INFO - MAE (Moving_Average) NVDA: 4.222381162795777
+2025-03-28 03:06:07,679 - INFO - RMSE (Arima) NVDA: 3.9560328772722584
+2025-03-28 03:06:07,679 - INFO - MAE (Arima) NVDA: 2.8563598446440635
+2025-03-28 03:06:07,679 - INFO - RMSE (LSTM) NVDA: 23.863491864766758
+2025-03-28 03:06:07,679 - INFO - MAE (LSTM) NVDA: 22.2872028878555
+2025-03-28 03:06:07,680 - INFO - RMSE (CNN-LSTM) NVDA: 15.113404552708229
+2025-03-28 03:06:07,680 - INFO - MAE (CNN-LSTM) NVDA: 13.688783698402375
+2025-03-28 03:06:07,932 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL         Arima  3.1748  2.3160
+ AAPL          LSTM  7.3517  6.0099
+ AAPL      CNN-LSTM 13.9706 12.6807
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA         Arima 10.8803  7.6139
+ TSLA          LSTM 18.9292 13.7508
+ TSLA      CNN-LSTM 22.2921 15.6918
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN         Arima  3.3536  2.5255
+ AMZN          LSTM  9.5505  8.1363
+ AMZN      CNN-LSTM  6.1335  4.9396
+   KO MovingAverage  0.8866  0.6570
+   KO         Arima  0.5878  0.4340
+   KO          LSTM  1.1620  0.8758
+   KO      CNN-LSTM  2.4258  2.1197
+  JPM MovingAverage  4.7256  3.4514
+  JPM         Arima  3.1471  2.0606
+  JPM          LSTM  8.4861  7.1901
+  JPM      CNN-LSTM 13.1713 12.0392
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA         Arima  3.9560  2.8564
+ NVDA          LSTM 23.8635 22.2872
+ NVDA      CNN-LSTM 15.1134 13.6888
+2025-03-28 04:31:14,201 - INFO - Loaded config:
+2025-03-28 04:31:14,201 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 04:31:14,201 - INFO - Downloading and preprocessing data...
+2025-03-28 04:31:42,905 - INFO - Loading existing LSTM model...
+2025-03-28 04:31:43,176 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:31:43,560 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:31:43,584 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:31:43,762 - INFO - RMSE (Moving_Average) AAPL: 4.940558791228404
+2025-03-28 04:31:43,762 - INFO - MAE (Moving_Average) AAPL: 3.8630954827744355
+2025-03-28 04:31:43,762 - INFO - RMSE (Arima) AAPL: 3.174787886494858
+2025-03-28 04:31:43,762 - INFO - MAE (Arima) AAPL: 2.3160257759088667
+2025-03-28 04:31:43,763 - INFO - RMSE (LSTM) AAPL: 7.351710684574686
+2025-03-28 04:31:43,763 - INFO - MAE (LSTM) AAPL: 6.009934436662395
+2025-03-28 04:31:43,763 - INFO - RMSE (CNN-LSTM) AAPL: 13.970584594062553
+2025-03-28 04:31:43,763 - INFO - MAE (CNN-LSTM) AAPL: 12.680704169593781
+2025-03-28 04:32:07,042 - INFO - Loading existing LSTM model...
+2025-03-28 04:32:07,080 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:32:07,238 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x3165eb7e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 04:32:07,407 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:32:07,430 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:32:07,517 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x317831260> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 04:32:07,604 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 04:32:07,604 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 04:32:07,604 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 04:32:07,604 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 04:32:07,604 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 04:32:07,604 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 04:32:07,604 - INFO - RMSE (CNN-LSTM) TSLA: 22.292105577658223
+2025-03-28 04:32:07,604 - INFO - MAE (CNN-LSTM) TSLA: 15.69176715353261
+2025-03-28 04:32:26,930 - INFO - Loading existing LSTM model...
+2025-03-28 04:32:26,959 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:32:27,286 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:32:27,310 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:32:27,487 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 04:32:27,487 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 04:32:27,487 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 04:32:27,487 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 04:32:27,487 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 04:32:27,487 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 04:32:27,487 - INFO - RMSE (CNN-LSTM) AMZN: 6.133453816780745
+2025-03-28 04:32:27,487 - INFO - MAE (CNN-LSTM) AMZN: 4.939591177838593
+2025-03-28 04:32:52,539 - INFO - Loading existing LSTM model...
+2025-03-28 04:32:52,601 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:32:52,928 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:32:52,951 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:32:53,123 - INFO - RMSE (Moving_Average) KO: 0.8866462773493533
+2025-03-28 04:32:53,123 - INFO - MAE (Moving_Average) KO: 0.6569776931128943
+2025-03-28 04:32:53,123 - INFO - RMSE (Arima) KO: 0.5878467588406897
+2025-03-28 04:32:53,123 - INFO - MAE (Arima) KO: 0.43399239037212745
+2025-03-28 04:32:53,123 - INFO - RMSE (LSTM) KO: 1.161960399064691
+2025-03-28 04:32:53,123 - INFO - MAE (LSTM) KO: 0.8758488078362385
+2025-03-28 04:32:53,123 - INFO - RMSE (CNN-LSTM) KO: 2.4257672254786726
+2025-03-28 04:32:53,123 - INFO - MAE (CNN-LSTM) KO: 2.119682704035944
+2025-03-28 04:33:15,311 - INFO - Loading existing LSTM model...
+2025-03-28 04:33:15,372 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:33:15,700 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:33:15,723 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:33:16,108 - INFO - RMSE (Moving_Average) JPM: 4.725568380815244
+2025-03-28 04:33:16,108 - INFO - MAE (Moving_Average) JPM: 3.4513843597706484
+2025-03-28 04:33:16,108 - INFO - RMSE (Arima) JPM: 3.1471050940582113
+2025-03-28 04:33:16,108 - INFO - MAE (Arima) JPM: 2.060551590779072
+2025-03-28 04:33:16,108 - INFO - RMSE (LSTM) JPM: 8.486116517859449
+2025-03-28 04:33:16,108 - INFO - MAE (LSTM) JPM: 7.190078796143551
+2025-03-28 04:33:16,108 - INFO - RMSE (CNN-LSTM) JPM: 13.17132009992384
+2025-03-28 04:33:16,108 - INFO - MAE (CNN-LSTM) JPM: 12.039149432543265
+2025-03-28 04:33:34,305 - INFO - Loading existing LSTM model...
+2025-03-28 04:33:34,353 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:33:34,700 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:33:34,727 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:33:34,908 - INFO - RMSE (Moving_Average) NVDA: 5.510084873778049
+2025-03-28 04:33:34,908 - INFO - MAE (Moving_Average) NVDA: 4.222381021420415
+2025-03-28 04:33:34,908 - INFO - RMSE (Arima) NVDA: 3.95603200037842
+2025-03-28 04:33:34,908 - INFO - MAE (Arima) NVDA: 2.856358949367481
+2025-03-28 04:33:34,908 - INFO - RMSE (LSTM) NVDA: 23.86348939131335
+2025-03-28 04:33:34,908 - INFO - MAE (LSTM) NVDA: 22.28720035477589
+2025-03-28 04:33:34,908 - INFO - RMSE (CNN-LSTM) NVDA: 15.113402327877576
+2025-03-28 04:33:34,909 - INFO - MAE (CNN-LSTM) NVDA: 13.688781436724154
+2025-03-28 04:33:35,213 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL         Arima  3.1748  2.3160
+ AAPL          LSTM  7.3517  6.0099
+ AAPL      CNN-LSTM 13.9706 12.6807
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA         Arima 10.8803  7.6139
+ TSLA          LSTM 18.9292 13.7508
+ TSLA      CNN-LSTM 22.2921 15.6918
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN         Arima  3.3536  2.5255
+ AMZN          LSTM  9.5505  8.1363
+ AMZN      CNN-LSTM  6.1335  4.9396
+   KO MovingAverage  0.8866  0.6570
+   KO         Arima  0.5878  0.4340
+   KO          LSTM  1.1620  0.8758
+   KO      CNN-LSTM  2.4258  2.1197
+  JPM MovingAverage  4.7256  3.4514
+  JPM         Arima  3.1471  2.0606
+  JPM          LSTM  8.4861  7.1901
+  JPM      CNN-LSTM 13.1713 12.0391
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA         Arima  3.9560  2.8564
+ NVDA          LSTM 23.8635 22.2872
+ NVDA      CNN-LSTM 15.1134 13.6888
+2025-03-28 04:34:40,447 - INFO - Loaded config:
+2025-03-28 04:34:40,447 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 04:34:40,447 - INFO - Downloading and preprocessing data...
+2025-03-28 04:35:02,176 - INFO - Loading existing LSTM model...
+2025-03-28 04:35:02,367 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:35:02,726 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:35:02,750 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:35:02,945 - INFO - RMSE (Moving_Average) AAPL: 4.940558289974778
+2025-03-28 04:35:02,945 - INFO - MAE (Moving_Average) AAPL: 3.8630951610236113
+2025-03-28 04:35:02,945 - INFO - RMSE (Arima) AAPL: 3.1747878881463936
+2025-03-28 04:35:02,945 - INFO - MAE (Arima) AAPL: 2.316025933786676
+2025-03-28 04:35:02,945 - INFO - RMSE (LSTM) AAPL: 7.351712930225007
+2025-03-28 04:35:02,945 - INFO - MAE (LSTM) AAPL: 6.009935642890779
+2025-03-28 04:35:02,945 - INFO - RMSE (CNN-LSTM) AAPL: 13.97059146179397
+2025-03-28 04:35:02,945 - INFO - MAE (CNN-LSTM) AAPL: 12.680710864161314
+2025-03-28 04:35:28,672 - INFO - Loading existing LSTM model...
+2025-03-28 04:35:28,712 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:35:28,877 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x3171977e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 04:35:29,064 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:35:29,086 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:35:29,173 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x317205260> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 04:35:29,257 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 04:35:29,257 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 04:35:29,257 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 04:35:29,257 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 04:35:29,257 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 04:35:29,257 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 04:35:29,257 - INFO - RMSE (CNN-LSTM) TSLA: 22.292105577658223
+2025-03-28 04:35:29,257 - INFO - MAE (CNN-LSTM) TSLA: 15.69176715353261
+2025-03-28 04:35:49,851 - INFO - Loading existing LSTM model...
+2025-03-28 04:35:49,889 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:35:50,216 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:35:50,236 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:35:50,403 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 04:35:50,404 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 04:35:50,404 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 04:35:50,404 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 04:35:50,404 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 04:35:50,404 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 04:35:50,404 - INFO - RMSE (CNN-LSTM) AMZN: 6.133453816780745
+2025-03-28 04:35:50,404 - INFO - MAE (CNN-LSTM) AMZN: 4.939591177838593
+2025-03-28 04:36:14,459 - INFO - Loading existing LSTM model...
+2025-03-28 04:36:14,494 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:36:14,817 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:36:14,838 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:36:15,012 - INFO - RMSE (Moving_Average) KO: 0.8866462644901927
+2025-03-28 04:36:15,012 - INFO - MAE (Moving_Average) KO: 0.6569777126129444
+2025-03-28 04:36:15,012 - INFO - RMSE (Arima) KO: 0.5878467755560267
+2025-03-28 04:36:15,012 - INFO - MAE (Arima) KO: 0.43399245527603125
+2025-03-28 04:36:15,012 - INFO - RMSE (LSTM) KO: 1.161960481987434
+2025-03-28 04:36:15,012 - INFO - MAE (LSTM) KO: 0.8758488078362385
+2025-03-28 04:36:15,012 - INFO - RMSE (CNN-LSTM) KO: 2.4257651958930064
+2025-03-28 04:36:15,012 - INFO - MAE (CNN-LSTM) KO: 2.1196808494598027
+2025-03-28 04:36:30,815 - INFO - Loading existing LSTM model...
+2025-03-28 04:36:30,851 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:36:31,179 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:36:31,200 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:36:31,549 - INFO - RMSE (Moving_Average) JPM: 4.725567898502139
+2025-03-28 04:36:31,549 - INFO - MAE (Moving_Average) JPM: 3.4513838200707134
+2025-03-28 04:36:31,549 - INFO - RMSE (Arima) JPM: 3.1471055599165845
+2025-03-28 04:36:31,549 - INFO - MAE (Arima) JPM: 2.060551692629572
+2025-03-28 04:36:31,549 - INFO - RMSE (LSTM) JPM: 8.48611599532207
+2025-03-28 04:36:31,549 - INFO - MAE (LSTM) JPM: 7.190078127431679
+2025-03-28 04:36:31,549 - INFO - RMSE (CNN-LSTM) JPM: 13.171320267443447
+2025-03-28 04:36:31,549 - INFO - MAE (CNN-LSTM) JPM: 12.039149675711217
+2025-03-28 04:36:47,259 - INFO - Loading existing LSTM model...
+2025-03-28 04:36:47,296 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:36:47,626 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 04:36:47,647 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 04:36:47,823 - INFO - RMSE (Moving_Average) NVDA: 5.510085130698286
+2025-03-28 04:36:47,823 - INFO - MAE (Moving_Average) NVDA: 4.222381279796076
+2025-03-28 04:36:47,823 - INFO - RMSE (Arima) NVDA: 3.9560325424191616
+2025-03-28 04:36:47,823 - INFO - MAE (Arima) NVDA: 2.856358502216768
+2025-03-28 04:36:47,823 - INFO - RMSE (LSTM) NVDA: 23.86349872428536
+2025-03-28 04:36:47,823 - INFO - MAE (LSTM) NVDA: 22.287209401488774
+2025-03-28 04:36:47,823 - INFO - RMSE (CNN-LSTM) NVDA: 15.113412495994625
+2025-03-28 04:36:47,823 - INFO - MAE (CNN-LSTM) NVDA: 13.688791177018357
+2025-03-28 04:36:48,066 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL         Arima  3.1748  2.3160
+ AAPL          LSTM  7.3517  6.0099
+ AAPL      CNN-LSTM 13.9706 12.6807
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA         Arima 10.8803  7.6139
+ TSLA          LSTM 18.9292 13.7508
+ TSLA      CNN-LSTM 22.2921 15.6918
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN         Arima  3.3536  2.5255
+ AMZN          LSTM  9.5505  8.1363
+ AMZN      CNN-LSTM  6.1335  4.9396
+   KO MovingAverage  0.8866  0.6570
+   KO         Arima  0.5878  0.4340
+   KO          LSTM  1.1620  0.8758
+   KO      CNN-LSTM  2.4258  2.1197
+  JPM MovingAverage  4.7256  3.4514
+  JPM         Arima  3.1471  2.0606
+  JPM          LSTM  8.4861  7.1901
+  JPM      CNN-LSTM 13.1713 12.0391
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA         Arima  3.9560  2.8564
+ NVDA          LSTM 23.8635 22.2872
+ NVDA      CNN-LSTM 15.1134 13.6888
+2025-03-28 05:57:54,454 - INFO - Loaded config:
+2025-03-28 05:57:54,454 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 05:57:54,454 - INFO - Downloading and preprocessing data...
+2025-03-28 05:57:55,509 - INFO - RMSE (Moving_Average) AAPL: 4.940558066237206
+2025-03-28 05:57:55,510 - INFO - MAE (Moving_Average) AAPL: 3.863095102523462
+2025-03-28 05:58:13,445 - INFO - RMSE (Arima) AAPL: 3.174788007039798
+2025-03-28 05:58:13,446 - INFO - MAE (Arima) AAPL: 2.3160266145891923
+2025-03-28 05:58:13,449 - INFO - Loading existing LSTM model...
+2025-03-28 05:58:13,623 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:58:13,995 - INFO - RMSE (LSTM) AAPL: 7.351712959429679
+2025-03-28 05:58:13,995 - INFO - MAE (LSTM) AAPL: 6.009936065070714
+2025-03-28 05:58:13,996 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 05:58:14,019 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:58:14,188 - INFO - RMSE (CNN-LSTM) AAPL: 13.970590281933097
+2025-03-28 05:58:14,188 - INFO - MAE (CNN-LSTM) AAPL: 12.680710562604219
+2025-03-28 05:58:14,697 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 05:58:14,698 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 05:58:32,918 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 05:58:32,919 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 05:58:32,922 - INFO - Loading existing LSTM model...
+2025-03-28 05:58:32,970 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:58:33,123 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x302343ec0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 05:58:33,310 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 05:58:33,310 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 05:58:33,311 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 05:58:33,333 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:58:33,420 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30f731440> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 05:58:33,506 - INFO - RMSE (CNN-LSTM) TSLA: 22.292105577658223
+2025-03-28 05:58:33,506 - INFO - MAE (CNN-LSTM) TSLA: 15.69176715353261
+2025-03-28 05:58:33,733 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 05:58:33,733 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 05:58:49,685 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 05:58:49,686 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 05:58:49,688 - INFO - Loading existing LSTM model...
+2025-03-28 05:58:49,722 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:58:50,055 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 05:58:50,055 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 05:58:50,056 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 05:58:50,078 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:58:50,258 - INFO - RMSE (CNN-LSTM) AMZN: 6.133453816780745
+2025-03-28 05:58:50,258 - INFO - MAE (CNN-LSTM) AMZN: 4.939591177838593
+2025-03-28 05:58:50,483 - INFO - RMSE (Moving_Average) KO: 0.8866461479872899
+2025-03-28 05:58:50,484 - INFO - MAE (Moving_Average) KO: 0.6569776346127446
+2025-03-28 05:59:10,264 - INFO - RMSE (Arima) KO: 0.5878467184935781
+2025-03-28 05:59:10,264 - INFO - MAE (Arima) KO: 0.433992409774095
+2025-03-28 05:59:10,268 - INFO - Loading existing LSTM model...
+2025-03-28 05:59:10,312 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:59:10,656 - INFO - RMSE (LSTM) KO: 1.1619606207216382
+2025-03-28 05:59:10,656 - INFO - MAE (LSTM) KO: 0.8758488832255126
+2025-03-28 05:59:10,657 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 05:59:10,678 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:59:10,851 - INFO - RMSE (CNN-LSTM) KO: 2.425767202791978
+2025-03-28 05:59:10,851 - INFO - MAE (CNN-LSTM) KO: 2.1196830055930396
+2025-03-28 05:59:11,085 - INFO - RMSE (Moving_Average) JPM: 4.725568640596768
+2025-03-28 05:59:11,085 - INFO - MAE (Moving_Average) JPM: 3.4513843499579226
+2025-03-28 05:59:25,044 - INFO - RMSE (Arima) JPM: 3.1471054817027815
+2025-03-28 05:59:25,045 - INFO - MAE (Arima) JPM: 2.060551209474575
+2025-03-28 05:59:25,048 - INFO - Loading existing LSTM model...
+2025-03-28 05:59:25,083 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:59:25,404 - INFO - RMSE (LSTM) JPM: 8.486113570144997
+2025-03-28 05:59:25,405 - INFO - MAE (LSTM) JPM: 7.190076182088054
+2025-03-28 05:59:25,406 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 05:59:25,426 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:59:25,776 - INFO - RMSE (CNN-LSTM) JPM: 13.171320200846692
+2025-03-28 05:59:25,776 - INFO - MAE (CNN-LSTM) JPM: 12.039149736503205
+2025-03-28 05:59:25,989 - INFO - RMSE (Moving_Average) NVDA: 5.510085206984619
+2025-03-28 05:59:25,989 - INFO - MAE (Moving_Average) NVDA: 4.22238110917064
+2025-03-28 05:59:40,171 - INFO - RMSE (Arima) NVDA: 3.9560326881354175
+2025-03-28 05:59:40,172 - INFO - MAE (Arima) NVDA: 2.856359405162979
+2025-03-28 05:59:40,175 - INFO - Loading existing LSTM model...
+2025-03-28 05:59:40,230 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:59:40,571 - INFO - RMSE (LSTM) NVDA: 23.86349185205154
+2025-03-28 05:59:40,571 - INFO - MAE (LSTM) NVDA: 22.28720291801121
+2025-03-28 05:59:40,573 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 05:59:40,600 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 05:59:40,796 - INFO - RMSE (CNN-LSTM) NVDA: 15.113404418731363
+2025-03-28 05:59:40,796 - INFO - MAE (CNN-LSTM) NVDA: 13.688783547623826
+2025-03-28 05:59:41,053 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL         Arima  3.1748  2.3160
+ AAPL          LSTM  7.3517  6.0099
+ AAPL      CNN-LSTM 13.9706 12.6807
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA         Arima 10.8803  7.6139
+ TSLA          LSTM 18.9292 13.7508
+ TSLA      CNN-LSTM 22.2921 15.6918
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN         Arima  3.3536  2.5255
+ AMZN          LSTM  9.5505  8.1363
+ AMZN      CNN-LSTM  6.1335  4.9396
+   KO MovingAverage  0.8866  0.6570
+   KO         Arima  0.5878  0.4340
+   KO          LSTM  1.1620  0.8758
+   KO      CNN-LSTM  2.4258  2.1197
+  JPM MovingAverage  4.7256  3.4514
+  JPM         Arima  3.1471  2.0606
+  JPM          LSTM  8.4861  7.1901
+  JPM      CNN-LSTM 13.1713 12.0391
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA         Arima  3.9560  2.8564
+ NVDA          LSTM 23.8635 22.2872
+ NVDA      CNN-LSTM 15.1134 13.6888
+2025-03-28 06:02:49,766 - INFO - Loaded config:
+2025-03-28 06:02:49,766 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 06:02:49,767 - INFO - Downloading and preprocessing data...
+2025-03-28 06:02:51,133 - INFO - Loading existing LSTM model...
+2025-03-28 06:02:51,225 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:02:51,559 - INFO - RMSE (LSTM) AAPL: 7.351713010737437
+2025-03-28 06:02:51,559 - INFO - MAE (LSTM) AAPL: 6.009936246004972
+2025-03-28 06:11:13,120 - INFO - Loaded config:
+2025-03-28 06:11:13,120 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 06:11:13,121 - INFO - Downloading and preprocessing data...
+2025-03-28 06:11:14,208 - INFO - Loading existing LSTM model...
+2025-03-28 06:11:14,297 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:11:14,618 - INFO - RMSE (LSTM) AAPL: 7.351712482755609
+2025-03-28 06:11:14,618 - INFO - MAE (LSTM) AAPL: 6.009935341333684
+2025-03-28 06:25:02,928 - INFO - Loaded config:
+2025-03-28 06:25:02,929 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 06:25:02,929 - INFO - Downloading and preprocessing data...
+2025-03-28 06:25:04,016 - INFO - Loading existing LSTM model...
+2025-03-28 06:25:04,111 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:25:04,433 - INFO - RMSE (LSTM) AAPL: 7.351710403114316
+2025-03-28 06:25:04,434 - INFO - MAE (LSTM) AAPL: 6.0099334113682685
+2025-03-28 06:27:20,003 - INFO - Loaded config:
+2025-03-28 06:27:20,003 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 06:27:20,003 - INFO - Downloading and preprocessing data...
+2025-03-28 06:27:21,051 - INFO - Loading existing LSTM model...
+2025-03-28 06:27:21,158 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:27:21,485 - INFO - RMSE (LSTM) AAPL: 7.351711617098579
+2025-03-28 06:27:21,486 - INFO - MAE (LSTM) AAPL: 6.009934858842329
+2025-03-28 06:28:38,653 - INFO - Loaded config:
+2025-03-28 06:28:38,653 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 06:28:38,653 - INFO - Downloading and preprocessing data...
+2025-03-28 06:28:39,757 - INFO - Loading existing LSTM model...
+2025-03-28 06:28:39,849 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:28:40,161 - INFO - RMSE (LSTM) AAPL: 7.351709313698491
+2025-03-28 06:28:40,161 - INFO - MAE (LSTM) AAPL: 6.009932989188334
+2025-03-28 06:28:40,543 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-03-28 06:28:40,610 - INFO - Loading existing LSTM model...
+2025-03-28 06:28:40,637 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:28:40,909 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 06:28:40,909 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 06:28:41,029 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-03-28 06:28:41,096 - INFO - Loading existing LSTM model...
+2025-03-28 06:28:41,123 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:28:41,248 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x31432a200> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 06:28:41,395 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 06:28:41,395 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 06:28:41,511 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-03-28 06:28:41,577 - INFO - Loading existing LSTM model...
+2025-03-28 06:28:41,604 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:28:41,730 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x31444a840> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 06:28:41,872 - INFO - RMSE (LSTM) KO: 1.1619601424216357
+2025-03-28 06:28:41,873 - INFO - MAE (LSTM) KO: 0.8758485213569973
+2025-03-28 06:28:42,010 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-03-28 06:28:42,096 - INFO - Loading existing LSTM model...
+2025-03-28 06:28:42,133 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:28:42,420 - INFO - RMSE (LSTM) JPM: 8.486111771382545
+2025-03-28 06:28:42,420 - INFO - MAE (LSTM) JPM: 7.19007417595244
+2025-03-28 06:28:42,546 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-03-28 06:28:42,616 - INFO - Loading existing LSTM model...
+2025-03-28 06:28:42,644 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 06:28:42,912 - INFO - RMSE (LSTM) NVDA: 23.86349121242446
+2025-03-28 06:28:42,912 - INFO - MAE (LSTM) NVDA: 22.287202495831274
+2025-03-28 06:28:43,028 - WARNING - No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2025-03-28 06:28:43,102 - INFO - Stock Model    RMSE     MAE
+ AAPL  LSTM  7.3517  6.0099
+ TSLA  LSTM 18.9292 13.7508
+ AMZN  LSTM  9.5505  8.1363
+   KO  LSTM  1.1620  0.8758
+  JPM  LSTM  8.4861  7.1901
+ NVDA  LSTM 23.8635 22.2872
+2025-03-28 16:49:05,585 - INFO - Loaded config:
+2025-03-28 16:49:05,586 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 16:49:05,586 - INFO - Downloading and preprocessing data...
+2025-03-28 16:49:07,129 - INFO - RMSE (Moving_Average) AAPL: 4.940558365902828
+2025-03-28 16:49:07,132 - INFO - MAE (Moving_Average) AAPL: 3.863095287773937
+2025-03-28 16:49:25,825 - INFO - RMSE (Arima) AAPL: 3.1747881712455004
+2025-03-28 16:49:25,826 - INFO - MAE (Arima) AAPL: 2.316027924588309
+2025-03-28 16:49:25,829 - INFO - Loading existing LSTM model...
+2025-03-28 16:49:25,990 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:49:26,371 - INFO - RMSE (LSTM) AAPL: 7.351713866959884
+2025-03-28 16:49:26,371 - INFO - MAE (LSTM) AAPL: 6.009936306316391
+2025-03-28 16:49:26,372 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 16:49:26,394 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:49:26,570 - INFO - RMSE (CNN-LSTM) AAPL: 13.970591954951443
+2025-03-28 16:49:26,571 - INFO - MAE (CNN-LSTM) AAPL: 12.680712311635375
+2025-03-28 16:49:27,288 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 16:49:27,288 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 16:49:46,506 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 16:49:46,507 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 16:49:46,510 - INFO - Loading existing LSTM model...
+2025-03-28 16:49:46,554 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:49:46,702 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x317fe9760> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 16:49:46,880 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 16:49:46,880 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 16:49:46,881 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 16:49:46,902 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:49:47,000 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x3181ae700> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 16:49:47,083 - INFO - RMSE (CNN-LSTM) TSLA: 22.292105577658223
+2025-03-28 16:49:47,084 - INFO - MAE (CNN-LSTM) TSLA: 15.69176715353261
+2025-03-28 16:49:47,331 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 16:49:47,331 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 16:50:04,066 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 16:50:04,067 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 16:50:04,071 - INFO - Loading existing LSTM model...
+2025-03-28 16:50:04,122 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:50:04,538 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 16:50:04,539 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 16:50:04,540 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 16:50:04,564 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:50:04,758 - INFO - RMSE (CNN-LSTM) AMZN: 6.133453816780745
+2025-03-28 16:50:04,759 - INFO - MAE (CNN-LSTM) AMZN: 4.939591177838593
+2025-03-28 16:50:05,037 - INFO - RMSE (Moving_Average) KO: 0.886646271443205
+2025-03-28 16:50:05,037 - INFO - MAE (Moving_Average) KO: 0.6569777321129943
+2025-03-28 16:50:25,149 - INFO - RMSE (Arima) KO: 0.5878466937358879
+2025-03-28 16:50:25,150 - INFO - MAE (Arima) KO: 0.43399239111035337
+2025-03-28 16:50:25,154 - INFO - Loading existing LSTM model...
+2025-03-28 16:50:25,203 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:50:25,526 - INFO - RMSE (LSTM) KO: 1.1619607365238036
+2025-03-28 16:50:25,527 - INFO - MAE (LSTM) KO: 0.8758490189262058
+2025-03-28 16:50:25,528 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 16:50:25,548 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:50:25,716 - INFO - RMSE (CNN-LSTM) KO: 2.4257669938229167
+2025-03-28 16:50:25,716 - INFO - MAE (CNN-LSTM) KO: 2.119682884970201
+2025-03-28 16:50:25,948 - INFO - RMSE (Moving_Average) JPM: 4.725568640596768
+2025-03-28 16:50:25,949 - INFO - MAE (Moving_Average) JPM: 3.4513843499579226
+2025-03-28 16:50:43,085 - INFO - RMSE (Arima) JPM: 3.1471054244001326
+2025-03-28 16:50:43,086 - INFO - MAE (Arima) JPM: 2.0605510400270095
+2025-03-28 16:50:43,089 - INFO - Loading existing LSTM model...
+2025-03-28 16:50:43,124 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:50:43,472 - INFO - RMSE (LSTM) JPM: 8.486116225177515
+2025-03-28 16:50:43,472 - INFO - MAE (LSTM) JPM: 7.190077641095773
+2025-03-28 16:50:43,473 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 16:50:43,494 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:50:43,857 - INFO - RMSE (CNN-LSTM) JPM: 13.171317305034052
+2025-03-28 16:50:43,857 - INFO - MAE (CNN-LSTM) JPM: 12.039146575319814
+2025-03-28 16:50:44,082 - INFO - RMSE (Moving_Average) NVDA: 5.510084961027979
+2025-03-28 16:50:44,082 - INFO - MAE (Moving_Average) NVDA: 4.222381045795478
+2025-03-28 16:50:58,543 - INFO - RMSE (Arima) NVDA: 3.9560321865265347
+2025-03-28 16:50:58,544 - INFO - MAE (Arima) NVDA: 2.856357762612593
+2025-03-28 16:50:58,547 - INFO - Loading existing LSTM model...
+2025-03-28 16:50:58,584 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:50:58,924 - INFO - RMSE (LSTM) NVDA: 23.863488943978275
+2025-03-28 16:50:58,924 - INFO - MAE (LSTM) NVDA: 22.287200083374508
+2025-03-28 16:50:58,925 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 16:50:58,950 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 16:50:59,162 - INFO - RMSE (CNN-LSTM) NVDA: 15.113402467164809
+2025-03-28 16:50:59,162 - INFO - MAE (CNN-LSTM) NVDA: 13.688781617658412
+2025-03-28 16:50:59,438 - INFO - Stock         Model    RMSE     MAE
+ AAPL MovingAverage  4.9406  3.8631
+ AAPL         Arima  3.1748  2.3160
+ AAPL          LSTM  7.3517  6.0099
+ AAPL      CNN-LSTM 13.9706 12.6807
+ TSLA MovingAverage 16.2289 11.3117
+ TSLA         Arima 10.8803  7.6139
+ TSLA          LSTM 18.9292 13.7508
+ TSLA      CNN-LSTM 22.2921 15.6918
+ AMZN MovingAverage  4.7857  3.7258
+ AMZN         Arima  3.3536  2.5255
+ AMZN          LSTM  9.5505  8.1363
+ AMZN      CNN-LSTM  6.1335  4.9396
+   KO MovingAverage  0.8866  0.6570
+   KO         Arima  0.5878  0.4340
+   KO          LSTM  1.1620  0.8758
+   KO      CNN-LSTM  2.4258  2.1197
+  JPM MovingAverage  4.7256  3.4514
+  JPM         Arima  3.1471  2.0606
+  JPM          LSTM  8.4861  7.1901
+  JPM      CNN-LSTM 13.1713 12.0391
+ NVDA MovingAverage  5.5101  4.2224
+ NVDA         Arima  3.9560  2.8564
+ NVDA          LSTM 23.8635 22.2872
+ NVDA      CNN-LSTM 15.1134 13.6888
+2025-03-28 20:48:39,249 - INFO - Loaded config:
+2025-03-28 20:48:39,249 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 20:48:39,249 - INFO - Downloading and preprocessing data...
+2025-03-28 20:48:40,554 - INFO - RMSE (Moving_Average) AAPL: 4.9405584307830015
+2025-03-28 20:48:40,554 - INFO - MAE (Moving_Average) AAPL: 3.863095473024412
+2025-03-28 20:49:00,484 - INFO - RMSE (Arima) AAPL: 3.174788374746683
+2025-03-28 20:49:00,485 - INFO - MAE (Arima) AAPL: 2.3160277218472256
+2025-03-28 20:49:00,491 - INFO - Loading existing LSTM model...
+2025-03-28 20:49:00,664 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:49:01,026 - INFO - RMSE (LSTM) AAPL: 7.351709544790776
+2025-03-28 20:49:01,026 - INFO - MAE (LSTM) AAPL: 6.00993329074543
+2025-03-28 20:49:01,027 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 20:49:01,050 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:49:01,220 - INFO - RMSE (CNN-LSTM) AAPL: 13.970584446447575
+2025-03-28 20:49:01,220 - INFO - MAE (CNN-LSTM) AAPL: 12.680704169593781
+2025-03-28 20:57:40,749 - INFO - Loaded config:
+2025-03-28 20:57:40,749 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-03-28 20:57:40,749 - INFO - Downloading and preprocessing data...
+2025-03-28 20:57:41,918 - INFO - RMSE (Moving_Average) AAPL: 4.9405579799903165
+2025-03-28 20:57:41,918 - INFO - MAE (Moving_Average) AAPL: 3.8630952097737374
+2025-03-28 20:57:59,239 - INFO - RMSE (Arima) AAPL: 3.1747878102410847
+2025-03-28 20:57:59,240 - INFO - MAE (Arima) AAPL: 2.31602724839322
+2025-03-28 20:57:59,243 - INFO - Loading existing LSTM model...
+2025-03-28 20:57:59,389 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:57:59,763 - INFO - RMSE (LSTM) AAPL: 7.351714887082157
+2025-03-28 20:57:59,763 - INFO - MAE (LSTM) AAPL: 6.009936487250648
+2025-03-28 20:57:59,764 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 20:57:59,790 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:57:59,960 - INFO - RMSE (CNN-LSTM) AAPL: 13.970596459357319
+2025-03-28 20:57:59,960 - INFO - MAE (CNN-LSTM) AAPL: 12.68071659374614
+2025-03-28 20:58:00,544 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-03-28 20:58:00,544 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-03-28 20:58:18,977 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-03-28 20:58:18,977 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-03-28 20:58:18,981 - INFO - Loading existing LSTM model...
+2025-03-28 20:58:19,024 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:58:19,163 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30f5431a0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 20:58:19,341 - INFO - RMSE (LSTM) TSLA: 18.929184935469408
+2025-03-28 20:58:19,341 - INFO - MAE (LSTM) TSLA: 13.750803106858324
+2025-03-28 20:58:19,342 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 20:58:19,365 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:58:19,465 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x30f69fa60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-03-28 20:58:19,551 - INFO - RMSE (CNN-LSTM) TSLA: 22.292105577658223
+2025-03-28 20:58:19,551 - INFO - MAE (CNN-LSTM) TSLA: 15.69176715353261
+2025-03-28 20:58:19,793 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-03-28 20:58:19,794 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-03-28 20:58:35,935 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-03-28 20:58:35,937 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-03-28 20:58:35,939 - INFO - Loading existing LSTM model...
+2025-03-28 20:58:35,968 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:58:36,287 - INFO - RMSE (LSTM) AMZN: 9.55045786139076
+2025-03-28 20:58:36,287 - INFO - MAE (LSTM) AMZN: 8.13625827231426
+2025-03-28 20:58:36,288 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 20:58:36,312 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:58:36,488 - INFO - RMSE (CNN-LSTM) AMZN: 6.133453816780745
+2025-03-28 20:58:36,488 - INFO - MAE (CNN-LSTM) AMZN: 4.939591177838593
+2025-03-28 20:58:36,729 - INFO - RMSE (Moving_Average) KO: 0.8866464012359839
+2025-03-28 20:58:36,730 - INFO - MAE (Moving_Average) KO: 0.6569780221762367
+2025-03-28 20:58:55,183 - INFO - RMSE (Arima) KO: 0.5878467978214896
+2025-03-28 20:58:55,183 - INFO - MAE (Arima) KO: 0.4339924163317479
+2025-03-28 20:58:55,187 - INFO - Loading existing LSTM model...
+2025-03-28 20:58:55,222 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:58:55,550 - INFO - RMSE (LSTM) KO: 1.161960807557903
+2025-03-28 20:58:55,550 - INFO - MAE (LSTM) KO: 0.8758490943154799
+2025-03-28 20:58:55,551 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 20:58:55,572 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:58:55,754 - INFO - RMSE (CNN-LSTM) KO: 2.4257670622818255
+2025-03-28 20:58:55,754 - INFO - MAE (CNN-LSTM) KO: 2.1196830055930396
+2025-03-28 20:58:56,000 - INFO - RMSE (Moving_Average) JPM: 4.725568082064904
+2025-03-28 20:58:56,001 - INFO - MAE (Moving_Average) JPM: 3.4513841831415797
+2025-03-28 20:59:10,033 - INFO - RMSE (Arima) JPM: 3.1471048518619273
+2025-03-28 20:59:10,034 - INFO - MAE (Arima) JPM: 2.0605512195335116
+2025-03-28 20:59:10,038 - INFO - Loading existing LSTM model...
+2025-03-28 20:59:10,089 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:59:10,409 - INFO - RMSE (LSTM) JPM: 8.486117070911217
+2025-03-28 20:59:10,410 - INFO - MAE (LSTM) JPM: 7.190079160895481
+2025-03-28 20:59:10,411 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 20:59:10,435 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:59:10,767 - INFO - RMSE (CNN-LSTM) JPM: 13.17132162282661
+2025-03-28 20:59:10,767 - INFO - MAE (CNN-LSTM) JPM: 12.039151134718937
+2025-03-28 20:59:11,005 - INFO - RMSE (Moving_Average) NVDA: 5.510085047542562
+2025-03-28 20:59:11,005 - INFO - MAE (Moving_Average) NVDA: 4.22238127735857
+2025-03-28 20:59:24,760 - INFO - RMSE (Arima) NVDA: 3.956032388785487
+2025-03-28 20:59:24,760 - INFO - MAE (Arima) NVDA: 2.85635801197329
+2025-03-28 20:59:24,766 - INFO - Loading existing LSTM model...
+2025-03-28 20:59:24,809 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:59:25,157 - INFO - RMSE (LSTM) NVDA: 23.863498654765348
+2025-03-28 20:59:25,157 - INFO - MAE (LSTM) NVDA: 22.287209250710227
+2025-03-28 20:59:25,158 - INFO - Loading existing CNN-LSTM model...
+2025-03-28 20:59:25,181 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-28 20:59:25,363 - INFO - RMSE (CNN-LSTM) NVDA: 15.113412753616512
+2025-03-28 20:59:25,364 - INFO - MAE (CNN-LSTM) NVDA: 13.688791599198293
+2025-03-28 20:59:25,647 - INFO - Stock          Model    RMSE     MAE
+ AAPL Moving_Average  4.9406  3.8631
+ AAPL          Arima  3.1748  2.3160
+ AAPL           LSTM  7.3517  6.0099
+ AAPL       CNN-LSTM 13.9706 12.6807
+ TSLA Moving_Average 16.2289 11.3117
+ TSLA          Arima 10.8803  7.6139
+ TSLA           LSTM 18.9292 13.7508
+ TSLA       CNN-LSTM 22.2921 15.6918
+ AMZN Moving_Average  4.7857  3.7258
+ AMZN          Arima  3.3536  2.5255
+ AMZN           LSTM  9.5505  8.1363
+ AMZN       CNN-LSTM  6.1335  4.9396
+   KO Moving_Average  0.8866  0.6570
+   KO          Arima  0.5878  0.4340
+   KO           LSTM  1.1620  0.8758
+   KO       CNN-LSTM  2.4258  2.1197
+  JPM Moving_Average  4.7256  3.4514
+  JPM          Arima  3.1471  2.0606
+  JPM           LSTM  8.4861  7.1901
+  JPM       CNN-LSTM 13.1713 12.0392
+ NVDA Moving_Average  5.5101  4.2224
+ NVDA          Arima  3.9560  2.8564
+ NVDA           LSTM 23.8635 22.2872
+ NVDA       CNN-LSTM 15.1134 13.6888

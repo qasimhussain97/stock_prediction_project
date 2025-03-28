@@ -1,0 +1,14 @@
+tensorflow
+keras-tuner
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+statsmodels
+yfinance
+fastapi
+uvicorn
+shap
+joblib
+pydantic

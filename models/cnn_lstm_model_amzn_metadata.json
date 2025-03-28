@@ -1,0 +1,7 @@
+{
+    "stock": "AMZN",
+    "model_name": "CNN-LSTM",
+    "rmse": 6.1335,
+    "mae": 4.9396,
+    "date": "2025-03-28 20:58:36"
+}
