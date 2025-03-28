@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Stock Prediction Project
 
 This project predicts stock prices using LSTM, CNN-LSTM, ARIMA, and Moving Average models.
@@ -16,3 +17,6 @@ This project predicts stock prices using LSTM, CNN-LSTM, ARIMA, and Moving Avera
 pip install -r requirements.txt
 python main.py
 ```
+=======
+# stock_prediction_project
+>>>>>>> 1848a2f19da1ab17b6781c7c84a765b256a845c1
