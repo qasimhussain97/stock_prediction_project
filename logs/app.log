@@ -1564,3 +1564,228 @@ Date
  NVDA          Arima  3.9560  2.8564
  NVDA           LSTM 23.8635 22.2872
  NVDA       CNN-LSTM 15.1134 13.6888
+2025-04-02 10:18:04,595 - INFO - Loaded config:
+2025-04-02 10:18:04,595 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-04-02 10:18:04,595 - INFO - Downloading and preprocessing data...
+2025-04-02 10:18:05,365 - INFO - RMSE (Moving_Average) AAPL: 4.9405584304706185
+2025-04-02 10:18:05,365 - INFO - MAE (Moving_Average) AAPL: 3.8630954340243115
+2025-04-02 10:18:24,557 - INFO - RMSE (Arima) AAPL: 3.1747881750829614
+2025-04-02 10:18:24,559 - INFO - MAE (Arima) AAPL: 2.3160279300003532
+2025-04-02 10:18:24,561 - INFO - Loading existing LSTM model...
+2025-04-02 10:18:24,709 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-02 10:18:25,154 - INFO - RMSE (LSTM) AAPL: 7.351713711201005
+2025-04-02 10:18:25,154 - INFO - MAE (LSTM) AAPL: 6.009935884136456
+2025-04-02 10:18:25,155 - INFO - Loading existing CNN-LSTM model...
+2025-04-02 10:18:25,176 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-02 10:18:25,316 - INFO - RMSE (CNN-LSTM) AAPL: 13.970592159853634
+2025-04-02 10:18:25,316 - INFO - MAE (CNN-LSTM) AAPL: 12.680712552881053
+2025-04-02 10:18:25,983 - INFO - Stock          Model    RMSE     MAE
+ AAPL Moving_Average  4.9406  3.8631
+ AAPL          Arima  3.1748  2.3160
+ AAPL           LSTM  7.3517  6.0099
+ AAPL       CNN-LSTM 13.9706 12.6807
+2025-04-02 10:20:32,840 - INFO - Loaded config:
+2025-04-02 10:20:32,840 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-04-02 10:20:32,840 - INFO - Downloading and preprocessing data...
+2025-04-02 10:24:41,947 - INFO - Loaded config:
+2025-04-02 10:24:41,947 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-04-02 10:24:41,947 - INFO - Downloading and preprocessing data...
+2025-04-02 10:24:42,274 - INFO - Loading existing CNN-LSTM model...
+2025-04-02 10:24:42,363 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-02 10:24:42,561 - INFO - RMSE (CNN-LSTM) TSLA: 22.292105577658223
+2025-04-02 10:24:42,561 - INFO - MAE (CNN-LSTM) TSLA: 15.69176715353261
+2025-04-02 10:24:42,997 - INFO - Stock    Model    RMSE     MAE
+ TSLA CNN-LSTM 22.2921 15.6918
+2025-04-02 10:26:58,535 - INFO - Loaded config:
+2025-04-02 10:26:58,536 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-04-02 10:26:58,536 - INFO - Downloading and preprocessing data...
+2025-04-02 10:26:58,896 - INFO - RMSE (Moving_Average) AAPL: 4.940557735816301
+2025-04-02 10:26:58,897 - INFO - MAE (Moving_Average) AAPL: 3.8630947612725888
+2025-04-02 10:27:16,451 - INFO - RMSE (Arima) AAPL: 3.174787239936892
+2025-04-02 10:27:16,452 - INFO - MAE (Arima) AAPL: 2.316025968648894
+2025-04-02 10:27:16,454 - INFO - Loading existing LSTM model...
+2025-04-02 10:27:16,594 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-02 10:27:16,927 - INFO - RMSE (LSTM) AAPL: 7.351715634408248
+2025-04-02 10:27:16,927 - INFO - MAE (LSTM) AAPL: 6.00993793472471
+2025-04-02 10:27:16,929 - INFO - Loading existing CNN-LSTM model...
+2025-04-02 10:27:16,949 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-02 10:27:17,094 - INFO - RMSE (CNN-LSTM) AAPL: 13.970597409491548
+2025-04-02 10:27:17,094 - INFO - MAE (CNN-LSTM) AAPL: 12.680717498417428
+2025-04-02 10:27:17,506 - INFO - Stock          Model    RMSE     MAE
+ AAPL Moving_Average  4.9406  3.8631
+ AAPL          Arima  3.1748  2.3160
+ AAPL           LSTM  7.3517  6.0099
+ AAPL       CNN-LSTM 13.9706 12.6807
+2025-06-22 05:09:55,114 - INFO - Loaded config:
+2025-06-22 05:09:55,114 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-06-22 05:09:55,114 - INFO - Downloading and preprocessing data...
+2025-06-22 05:09:57,784 - ERROR - 
+1 Failed download:
+2025-06-22 05:09:57,784 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:09:57,909 - ERROR - 
+1 Failed download:
+2025-06-22 05:09:57,909 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:09:58,477 - ERROR - 
+1 Failed download:
+2025-06-22 05:09:58,477 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:09:59,138 - ERROR - 
+1 Failed download:
+2025-06-22 05:09:59,138 - ERROR - ['KO']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:09:59,677 - ERROR - 
+1 Failed download:
+2025-06-22 05:09:59,677 - ERROR - ['JPM']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:10:00,394 - ERROR - 
+1 Failed download:
+2025-06-22 05:10:00,394 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:15:10,377 - INFO - Loaded config:
+2025-06-22 05:15:10,377 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-06-22 05:15:10,377 - INFO - Downloading and preprocessing data...
+2025-06-22 05:15:11,619 - ERROR - 
+1 Failed download:
+2025-06-22 05:15:11,619 - ERROR - ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:15:12,228 - ERROR - 
+1 Failed download:
+2025-06-22 05:15:12,229 - ERROR - ['TSLA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:15:12,798 - ERROR - 
+1 Failed download:
+2025-06-22 05:15:12,798 - ERROR - ['AMZN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:15:13,419 - ERROR - 
+1 Failed download:
+2025-06-22 05:15:13,419 - ERROR - ['KO']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:15:13,979 - ERROR - 
+1 Failed download:
+2025-06-22 05:15:13,979 - ERROR - ['JPM']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:15:14,651 - ERROR - 
+1 Failed download:
+2025-06-22 05:15:14,651 - ERROR - ['NVDA']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-22 05:17:33,877 - INFO - Loaded config:
+2025-06-22 05:17:33,878 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-06-22 05:17:33,878 - INFO - Downloading and preprocessing data...
+2025-06-22 05:17:34,998 - INFO - RMSE (Moving_Average) AAPL: 4.934088021583978
+2025-06-22 05:17:34,999 - INFO - MAE (Moving_Average) AAPL: 3.858036165572583
+2025-06-22 05:17:52,482 - INFO - RMSE (Arima) AAPL: 3.1706282167614837
+2025-06-22 05:17:52,483 - INFO - MAE (Arima) AAPL: 2.312992960178348
+2025-06-22 05:17:52,484 - INFO - Preparing data for Deep Learning models for AAPL...
+2025-06-22 05:17:52,486 - INFO - Training new LSTM model for AAPL...
+2025-06-22 05:18:08,460 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:18:08,495 - INFO - LSTM Model and Scaler for AAPL saved.
+2025-06-22 05:18:08,790 - INFO - RMSE (LSTM) AAPL: 10.10104725455007
+2025-06-22 05:18:08,790 - INFO - MAE (LSTM) AAPL: 8.351177411588285
+2025-06-22 05:18:08,790 - INFO - Training new CNN-LSTM model for AAPL...
+2025-06-22 05:18:14,496 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:18:14,505 - INFO - CNN-LSTM Model for AAPL saved.
+2025-06-22 05:18:14,675 - INFO - RMSE (CNN-LSTM) AAPL: 17.346214950410168
+2025-06-22 05:18:14,675 - INFO - MAE (CNN-LSTM) AAPL: 15.933930709899178
+2025-06-22 05:18:15,428 - INFO - RMSE (Moving_Average) TSLA: 16.228937681956385
+2025-06-22 05:18:15,429 - INFO - MAE (Moving_Average) TSLA: 11.311686594417683
+2025-06-22 05:18:33,131 - INFO - RMSE (Arima) TSLA: 10.880308948340495
+2025-06-22 05:18:33,132 - INFO - MAE (Arima) TSLA: 7.613893473302918
+2025-06-22 05:18:33,133 - INFO - Preparing data for Deep Learning models for TSLA...
+2025-06-22 05:18:33,136 - INFO - Training new LSTM model for TSLA...
+2025-06-22 05:18:47,984 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:18:47,995 - INFO - LSTM Model and Scaler for TSLA saved.
+2025-06-22 05:18:48,114 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x322480900> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-06-22 05:18:48,273 - INFO - RMSE (LSTM) TSLA: 23.10360865404444
+2025-06-22 05:18:48,273 - INFO - MAE (LSTM) TSLA: 16.46483892508646
+2025-06-22 05:18:48,273 - INFO - Training new CNN-LSTM model for TSLA...
+2025-06-22 05:18:53,577 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:18:53,587 - INFO - CNN-LSTM Model for TSLA saved.
+2025-06-22 05:18:53,669 - WARNING - 5 out of the last 17 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x347f8b920> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-06-22 05:18:53,760 - INFO - RMSE (CNN-LSTM) TSLA: 21.23570231464256
+2025-06-22 05:18:53,761 - INFO - MAE (CNN-LSTM) TSLA: 14.943768105488049
+2025-06-22 05:18:54,011 - INFO - RMSE (Moving_Average) AMZN: 4.785743610190639
+2025-06-22 05:18:54,011 - INFO - MAE (Moving_Average) AMZN: 3.725788845269444
+2025-06-22 05:19:09,905 - INFO - RMSE (Arima) AMZN: 3.353557793748517
+2025-06-22 05:19:09,906 - INFO - MAE (Arima) AMZN: 2.5254725837103535
+2025-06-22 05:19:09,907 - INFO - Preparing data for Deep Learning models for AMZN...
+2025-06-22 05:19:09,909 - INFO - Training new LSTM model for AMZN...
+2025-06-22 05:19:24,838 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:19:24,852 - INFO - LSTM Model and Scaler for AMZN saved.
+2025-06-22 05:19:25,168 - INFO - RMSE (LSTM) AMZN: 8.474948122863983
+2025-06-22 05:19:25,168 - INFO - MAE (LSTM) AMZN: 7.0264012031404395
+2025-06-22 05:19:25,168 - INFO - Training new CNN-LSTM model for AMZN...
+2025-06-22 05:19:30,780 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:19:30,789 - INFO - CNN-LSTM Model for AMZN saved.
+2025-06-22 05:19:30,955 - INFO - RMSE (CNN-LSTM) AMZN: 10.743602364136235
+2025-06-22 05:19:30,955 - INFO - MAE (CNN-LSTM) AMZN: 9.642424632438086
+2025-06-22 05:19:31,216 - INFO - RMSE (Moving_Average) KO: 0.880386662388191
+2025-06-22 05:19:31,217 - INFO - MAE (Moving_Average) KO: 0.6523395696767981
+2025-06-22 05:19:49,183 - INFO - RMSE (Arima) KO: 0.5836961536415737
+2025-06-22 05:19:49,184 - INFO - MAE (Arima) KO: 0.4309280421857916
+2025-06-22 05:19:49,184 - INFO - Preparing data for Deep Learning models for KO...
+2025-06-22 05:19:49,187 - INFO - Training new LSTM model for KO...
+2025-06-22 05:20:06,460 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:20:06,547 - INFO - LSTM Model and Scaler for KO saved.
+2025-06-22 05:20:06,999 - INFO - RMSE (LSTM) KO: 1.0929927396758599
+2025-06-22 05:20:06,999 - INFO - MAE (LSTM) KO: 0.8504913088832449
+2025-06-22 05:20:06,999 - INFO - Training new CNN-LSTM model for KO...
+2025-06-22 05:20:12,708 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:20:12,719 - INFO - CNN-LSTM Model for KO saved.
+2025-06-22 05:20:12,944 - INFO - RMSE (CNN-LSTM) KO: 1.1171025299587254
+2025-06-22 05:20:12,944 - INFO - MAE (CNN-LSTM) KO: 0.8748748236494102
+2025-06-22 05:20:13,284 - INFO - RMSE (Moving_Average) JPM: 3.4380902071293087
+2025-06-22 05:20:13,284 - INFO - MAE (Moving_Average) JPM: 2.6116748508309167
+2025-06-22 05:20:26,195 - INFO - RMSE (Arima) JPM: 2.254614042752497
+2025-06-22 05:20:26,195 - INFO - MAE (Arima) JPM: 1.5502490275759886
+2025-06-22 05:20:26,196 - INFO - Preparing data for Deep Learning models for JPM...
+2025-06-22 05:20:26,201 - INFO - Training new LSTM model for JPM...
+2025-06-22 05:20:40,077 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:20:40,099 - INFO - LSTM Model and Scaler for JPM saved.
+2025-06-22 05:20:40,398 - INFO - RMSE (LSTM) JPM: 3.8938380491414524
+2025-06-22 05:20:40,398 - INFO - MAE (LSTM) JPM: 2.91262335178656
+2025-06-22 05:20:40,398 - INFO - Training new CNN-LSTM model for JPM...
+2025-06-22 05:20:45,398 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:20:45,407 - INFO - CNN-LSTM Model for JPM saved.
+2025-06-22 05:20:45,582 - INFO - RMSE (CNN-LSTM) JPM: 6.41900822099766
+2025-06-22 05:20:45,582 - INFO - MAE (CNN-LSTM) JPM: 5.812254141935538
+2025-06-22 05:20:45,860 - INFO - RMSE (Moving_Average) NVDA: 2.437550968064652
+2025-06-22 05:20:45,861 - INFO - MAE (Moving_Average) NVDA: 1.7925416960435754
+2025-06-22 05:20:56,984 - INFO - RMSE (Arima) NVDA: 1.7678571431050893
+2025-06-22 05:20:56,985 - INFO - MAE (Arima) NVDA: 1.1849727417618439
+2025-06-22 05:20:56,985 - INFO - Preparing data for Deep Learning models for NVDA...
+2025-06-22 05:20:56,988 - INFO - Training new LSTM model for NVDA...
+2025-06-22 05:21:08,330 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:21:08,345 - INFO - LSTM Model and Scaler for NVDA saved.
+2025-06-22 05:21:08,654 - INFO - RMSE (LSTM) NVDA: 5.437847701869497
+2025-06-22 05:21:08,654 - INFO - MAE (LSTM) NVDA: 4.23227621474356
+2025-06-22 05:21:08,654 - INFO - Training new CNN-LSTM model for NVDA...
+2025-06-22 05:21:12,815 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:21:12,823 - INFO - CNN-LSTM Model for NVDA saved.
+2025-06-22 05:21:12,995 - INFO - RMSE (CNN-LSTM) NVDA: 6.2044001084093585
+2025-06-22 05:21:12,995 - INFO - MAE (CNN-LSTM) NVDA: 5.481843012683797
+2025-06-22 05:21:13,378 - INFO - Stock          Model    RMSE     MAE
+ AAPL Moving_Average  4.9341  3.8580
+ AAPL          Arima  3.1706  2.3130
+ AAPL           LSTM 10.1010  8.3512
+ AAPL       CNN-LSTM 17.3462 15.9339
+ TSLA Moving_Average 16.2289 11.3117
+ TSLA          Arima 10.8803  7.6139
+ TSLA           LSTM 23.1036 16.4648
+ TSLA       CNN-LSTM 21.2357 14.9438
+ AMZN Moving_Average  4.7857  3.7258
+ AMZN          Arima  3.3536  2.5255
+ AMZN           LSTM  8.4749  7.0264
+ AMZN       CNN-LSTM 10.7436  9.6424
+   KO Moving_Average  0.8804  0.6523
+   KO          Arima  0.5837  0.4309
+   KO           LSTM  1.0930  0.8505
+   KO       CNN-LSTM  1.1171  0.8749
+  JPM Moving_Average  3.4381  2.6117
+  JPM          Arima  2.2546  1.5502
+  JPM           LSTM  3.8938  2.9126
+  JPM       CNN-LSTM  6.4190  5.8123
+ NVDA Moving_Average  2.4376  1.7925
+ NVDA          Arima  1.7679  1.1850
+ NVDA           LSTM  5.4378  4.2323
+ NVDA       CNN-LSTM  6.2044  5.4818
+2025-06-22 05:24:13,062 - INFO - Loaded config:
+2025-06-22 05:24:13,062 - INFO - Stock symbols: ['AAPL', 'TSLA', 'AMZN', 'KO', 'JPM', 'NVDA']
+2025-06-22 05:24:13,062 - INFO - Downloading and preprocessing data...
+2025-06-22 05:24:13,527 - INFO - Preparing data for Deep Learning models for aapl...
+2025-06-22 05:24:13,530 - INFO - Training new LSTM model for aapl...
+2025-06-22 05:24:28,907 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-06-22 05:24:28,945 - INFO - LSTM Model and Scaler for aapl saved.
+2025-06-22 05:24:29,245 - INFO - RMSE (LSTM) aapl: 11.684775343518925
+2025-06-22 05:24:29,245 - INFO - MAE (LSTM) aapl: 9.980740874668337
+2025-06-22 05:24:29,786 - INFO - Stock Model    RMSE    MAE
+ aapl  LSTM 11.6848 9.9807

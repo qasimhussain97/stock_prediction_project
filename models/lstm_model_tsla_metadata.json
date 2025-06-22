@@ -1,7 +1,7 @@
 {
     "stock": "TSLA",
-    "model_name": "LSTM",
-    "rmse": 18.9292,
-    "mae": 13.7508,
-    "date": "2025-03-28 20:58:19"
+    "model_name": "Arima",
+    "rmse": 10.8803,
+    "mae": 7.6139,
+    "date": "2025-06-22 05:18:33"
 }

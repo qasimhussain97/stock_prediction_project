@@ -1,8 +1,7 @@
 {
     "stock": "KO",
-    "model_name": "LSTM",
-    "rmse": 1.162,
-    "mae": 0.8758,
-    "date": "2025-03-28 16:50:25"
+    "model_name": "Arima",
+    "rmse": 0.5837,
+    "mae": 0.4309,
+    "date": "2025-06-22 05:19:49"
 }
-

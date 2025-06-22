@@ -5,10 +5,11 @@ import numpy as np
 import pandas as pd
 import json
 import argparse
+import joblib
 from datetime import datetime
 from tensorflow.keras.models import load_model
 from logger import logger
-from src.utils import log_metrics, save_model_metadata
+from src.utils import log_metrics, save_model_metadata, evaluate_deep_learning_model 
 from src.moving_average_model import moving_average_baseline, calculate_mse
 from src.plotting import plot_predictions, plot_residuals, plot_model_predictions
 from src.arima_model import arima_predict, grid_search_arima
@@ -53,7 +54,7 @@ metrics_table = []
 
 
 logger.info("Downloading and preprocessing data...")
-data = {symbol: yf.download(symbol, start="2019-01-01", end="2025-03-25") for symbol in stock_symbols}
+data = {symbol: yf.download(symbol, start="2019-01-01", end="2025-06-20") for symbol in stock_symbols}
 for symbol in data:
     if isinstance(data[symbol].columns, pd.MultiIndex):
         data[symbol].columns = data[symbol].columns.get_level_values(0)
@@ -92,61 +93,57 @@ for symbol, (train, test) in split_data.items():
         predictions_dict["Arima"] = arima_predictions
 
 
-
-    # LSTM starts here
-    if args.model in ["lstm", "all"]:
+    if args.model in ["lstm", "cnn_lstm", "all"]:
+        logger.info(f"Preparing data for Deep Learning models for {symbol}...")
         scaler = MinMaxScaler()
         scaled_train = scaler.fit_transform(train[['Close']])
         scaled_test = scaler.transform(test[['Close']])
 
-        X_train, y_train = preprocess_data_for_lstm(scaled_train, window_size)
-        X_train = X_train.reshape(X_train.shape[0], X_train.shape[1], 1)
+        # Prepare training data
+        X_train_dl, y_train_dl = preprocess_data_for_lstm(scaled_train, window_size)
+        X_train_dl = X_train_dl.reshape(X_train_dl.shape[0], X_train_dl.shape[1], 1)
+        
+        # Prepare test data - THIS IS WHERE X_test_dl IS CREATED
+        X_test_dl, y_test_dl = preprocess_data_for_lstm(scaled_test, window_size)
+        X_test_dl = X_test_dl.reshape(X_test_dl.shape[0], X_test_dl.shape[1], 1)
 
+    # LSTM starts here
+    if args.model in ["lstm", "all"]:
         model_path = os.path.join(model_dir, model_name_template.format(symbol=symbol.lower()))
 
-        # Load or train model
-        if os.path.exists(model_path):
-            logger.info("Loading existing LSTM model...")
+        if os.path.exists(model_path) and args.predict_only:
+            logger.info(f"Loading existing LSTM model for {symbol}...")
             model = load_model(model_path)
         else:
-            logger.info("Training new LSTM model...")
-            model = build_lstm_model((X_train.shape[1], 1))
-            model.fit(X_train, y_train, batch_size=batch_size, epochs=epochs)
+            logger.info(f"Training new LSTM model for {symbol}...")
+
+            model = build_lstm_model((X_train_dl.shape[1], 1))
+            model.fit(X_train_dl, y_train_dl, batch_size=batch_size, epochs=epochs, verbose=0)
             model.save(model_path)
-            logger.info("Model saved to disk.")
+            
+            scaler_path = os.path.join(model_dir, f"scaler_lstm_{symbol.lower()}.joblib")
+            joblib.dump(scaler, scaler_path)
+            logger.info(f"LSTM Model and Scaler for {symbol} saved.")
 
-        # Prepare test data
-        X_test, y_test = preprocess_data_for_lstm(scaled_test, window_size)
-        X_test = X_test.reshape(X_test.shape[0], X_test.shape[1], 1)
-
-        # Predict
-        predictions = model.predict(X_test)
-        predictions = scaler.inverse_transform(predictions)
-
-        actual = test['Close'][window_size:]
-        lstm_rmse = np.sqrt(mean_squared_error(actual, predictions))
-        logger.info(f"RMSE (LSTM) {symbol}: {lstm_rmse}")
-        lstm_mae = mean_absolute_error(actual, predictions) 
-        logger.info(f"MAE (LSTM) {symbol}: {lstm_mae}")
-
+       
+        lstm_predictions, lstm_rmse, lstm_mae = evaluate_deep_learning_model(
+            model, "LSTM", symbol, X_test_dl, scaler, test['Close'], window_size
+        )
         log_metrics(metrics_table, symbol, "LSTM", lstm_rmse, lstm_mae)
-        save_model_metadata(model_dir, metadata_name_template, symbol, "LSTM", lstm_rmse, lstm_mae)
-
-        predictions_dict["LSTM"] = predictions.flatten()
+        predictions_dict["LSTM"] = lstm_predictions
 
     # CNN_LSTM
     if args.model in ["cnn_lstm", "all"]:
-        X_train, y_train = preprocess_data_for_lstm(scaled_train, window_size)
-        X_train_cnn = X_train.reshape(X_train.shape[0], X_train.shape[1], 1)  
-
         cnn_model_path = os.path.join(model_dir, cnn_model_name_template.format(symbol=symbol.lower()))
-        if os.path.exists(cnn_model_path):
-            logger.info("Loading existing CNN-LSTM model...")
+        
+        if os.path.exists(cnn_model_path) and args.predict_only:
+            logger.info(f"Loading existing CNN-LSTM model for {symbol}...")
             cnn_model = load_model(cnn_model_path)
         else: 
-            logger.info("Training CNN-LSTM model...")
+            logger.info(f"Training new CNN-LSTM model for {symbol}...")
+            # Use the data prepared above
             cnn_model = build_cnn_lstm_model(
-                input_shape=(X_train_cnn.shape[1], 1),
+                input_shape=(X_train_dl.shape[1], 1),
                 filters=cnn_config["filters"],
                 kernel_size=cnn_config["kernel_size"],
                 pool_size=cnn_config["pool_size"],
@@ -154,41 +151,24 @@ for symbol, (train, test) in split_data.items():
                 dropout=cnn_config["dropout"],
                 dense_units=cnn_config["dense_units"]
             )
-            cnn_model.fit(
-                X_train_cnn, y_train,
-                batch_size=cnn_config["batch_size"],
-                epochs=cnn_config["epochs"],
-                verbose=0
-            )
+            cnn_model.fit(X_train_dl, y_train_dl, batch_size=cnn_config["batch_size"], epochs=cnn_config["epochs"], verbose=0)
             cnn_model.save(cnn_model_path)
-            logger.info("CNN-LSTM model saved.")
+            logger.info(f"CNN-LSTM Model for {symbol} saved.")
 
-        # Test data
-        X_test, y_test = preprocess_data_for_lstm(scaled_test, window_size)
-        X_test_cnn = X_test.reshape(X_test.shape[0], X_test.shape[1], 1)
-
-        cnn_predictions = cnn_model.predict(X_test_cnn)
-        cnn_predictions = scaler.inverse_transform(cnn_predictions)
-
-        actual = test['Close'][window_size:]
-        cnn_rmse = np.sqrt(mean_squared_error(actual, cnn_predictions))
-        logger.info(f"RMSE (CNN-LSTM) {symbol}: {cnn_rmse}")
-        cnn_mae = mean_absolute_error(actual, cnn_predictions)
-        logger.info(f"MAE (CNN-LSTM) {symbol}: {cnn_mae}")
-
+        # Evaluate the model using the new function and prepared data
+        cnn_predictions, cnn_rmse, cnn_mae = evaluate_deep_learning_model(
+            cnn_model, "CNN-LSTM", symbol, X_test_dl, scaler, test['Close'], window_size
+        )
         log_metrics(metrics_table, symbol, "CNN-LSTM", cnn_rmse, cnn_mae)
-        save_model_metadata(model_dir, cnn_metadata_template, symbol, "CNN-LSTM", cnn_rmse, cnn_mae)
+        predictions_dict["CNN-LSTM"] = cnn_predictions
 
-        predictions_dict["CNN-LSTM"] = cnn_predictions.flatten()
-
-
-    # Align index with test_data by trimming the beginning (like LSTM)
-    if "CNN-LSTM" in predictions_dict:
-        aligned_index = test.index[window_size:]
-        cnn_lstm_df = pd.DataFrame({
-            'CNN_LSTM_Prediction': predictions_dict["CNN-LSTM"]
-        }, index=aligned_index)
-        predictions_dict["CNN-LSTM"] = cnn_lstm_df["CNN_LSTM_Prediction"]
+    # # Align index with test_data by trimming the beginning (like LSTM)
+    # if "CNN-LSTM" in predictions_dict:
+    #     aligned_index = test.index[window_size:]
+    #     cnn_lstm_df = pd.DataFrame({
+    #         'CNN_LSTM_Prediction': predictions_dict["CNN-LSTM"]
+    #     }, index=aligned_index)
+    #     predictions_dict["CNN-LSTM"] = cnn_lstm_df["CNN_LSTM_Prediction"]
 
     os.makedirs(plots_dir, exist_ok=True)
     plot_model_predictions(

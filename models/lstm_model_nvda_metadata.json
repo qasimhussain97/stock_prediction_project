@@ -1,7 +1,7 @@
 {
     "stock": "NVDA",
-    "model_name": "LSTM",
-    "rmse": 23.8635,
-    "mae": 22.2872,
-    "date": "2025-03-28 20:59:25"
+    "model_name": "Arima",
+    "rmse": 1.7679,
+    "mae": 1.185,
+    "date": "2025-06-22 05:20:56"
 }
