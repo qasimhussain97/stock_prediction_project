@@ -1,9 +1,9 @@
-Stock Price Prediction: A Comparative Study
+# Stock Price Prediction: A Comparative Study
 This project started as a curiosity driven dive into stock price forecasting. I wanted to move beyond just training a single model and instead build a complete, end-to-end pipeline to compare classical statistical models against more modern deep learning approaches.
 
 The project downloads historical stock data, processes it, trains four distinct models (Moving Average, ARIMA, LSTM, and CNN-LSTM), and evaluates their performance to see which one proves most effective. To complete the workflow, it also includes a REST API to serve predictions from the trained models.
 
-Key Features
+# Key Features
 Multi-Model Comparison: Systematically trains and evaluates four different models: a simple Moving Average, a classical ARIMA model, a Long Short-Term Memory (LSTM) network, and a hybrid CNN-LSTM network.
 Configuration Driven: All important parameters, from stock symbols to model hyperparameters, are managed in a central config.yaml file, making it easy to run new experiments.
 Automated Evaluation: The project automatically calculates and saves key performance metrics (RMSE and MAE) for every model and every stock, saving the results to metrics_summary.csv and metrics_summary.json.
@@ -14,36 +14,37 @@ After running the pipeline, one of the most interesting takeaways was that for t
 
 Here is the full performance summary:
 
-Stock	Model	RMSE	MAE
-AAPL	MovingAverage	4.9406	3.8631
-AAPL	Arima	3.1748	2.3160
-AAPL	LSTM	7.3517	6.0099
-AAPL	CNN-LSTM	13.9706	12.6807
-TSLA	MovingAverage	16.2289	11.3117
-TSLA	Arima	10.8803	7.6139
-TSLA	LSTM	18.9292	13.7508
-TSLA	CNN-LSTM	22.2921	15.6918
-AMZN	MovingAverage	4.7857	3.7258
-AMZN	Arima	3.3536	2.5255
-AMZN	LSTM	9.5505	8.1363
-AMZN	CNN-LSTM	6.1335	4.9396
-KO	MovingAverage	0.8866	0.6570
-KO	Arima	0.5878	0.4340
-KO	LSTM	1.1620	0.8758
-KO	CNN-LSTM	2.4258	2.1197
-JPM	MovingAverage	4.7256	3.4514
-JPM	Arima	3.1471	2.0606
-JPM	LSTM	8.4861	7.1901
-JPM	CNN-LSTM	13.1713	12.0391
-NVDA	MovingAverage	5.5101	4.2224
-NVDA	Arima	3.9560	2.8564
-NVDA	LSTM	23.8635	22.2872
-NVDA	CNN-LSTM	15.1134	13.6888
+| Stock | Model | RMSE | MAE |
+| :--- | :--- | :--- | :--- |
+| AAPL | MovingAverage | 4.9406 | 3.8631 |
+| AAPL | Arima | 3.1748 | 2.3160 |
+| AAPL | LSTM | 7.3517 | 6.0099 |
+| AAPL | CNN-LSTM | 13.9706 | 12.6807 |
+| TSLA | MovingAverage | 16.2289 | 11.3117 |
+| TSLA | Arima | 10.8803 | 7.6139 |
+| TSLA | LSTM | 18.9292 | 13.7508 |
+| TSLA | CNN-LSTM | 22.2921 | 15.6918 |
+| AMZN | MovingAverage | 4.7857 | 3.7258 |
+| AMZN | Arima | 3.3536 | 2.5255 |
+| AMZN | LSTM | 9.5505 | 8.1363 |
+| AMZN | CNN-LSTM | 6.1335 | 4.9396 |
+| KO | MovingAverage | 0.8866 | 0.6570 |
+| KO | Arima | 0.5878 | 0.4340 |
+| KO | LSTM | 1.1620 | 0.8758 |
+| KO | CNN-LSTM | 2.4258 | 2.1197 |
+| JPM | MovingAverage | 4.7256 | 3.4514 |
+| JPM | Arima | 3.1471 | 2.0606 |
+| JPM | LSTM | 8.4861 | 7.1901 |
+| JPM | CNN-LSTM | 13.1713 | 12.0391 |
+| NVDA | MovingAverage | 5.5101 | 4.2224 |
+| NVDA | Arima | 3.9560 | 2.8564 |
+| NVDA | LSTM | 23.8635 | 22.2872 |
+| NVDA | CNN-LSTM | 15.1134 | 13.6888 |
 
 Export to Sheets
 (Results sourced from metrics_summary.csv)
 
-How to Get Started
+# How to Get Started
 Getting the project running is straightforward.
 
 1. Set up your environment:
